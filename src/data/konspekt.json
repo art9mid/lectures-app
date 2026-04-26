@@ -1,0 +1,2433 @@
+{
+  "header": "LIMBA ROMÂNĂ \nУчу румынский язык \nКонспект для изучения \nПрезентации 1 + 2 + 3",
+  "sections": [
+    {
+      "id": "section-1",
+      "number": 1,
+      "title": "АЛФАВИТ (ALFABETUL = 31 буква)",
+      "blocks": [
+        {
+          "type": "table",
+          "rows": [
+            [
+              "Буква",
+              "Звук",
+              "Пример"
+            ],
+            [
+              "A",
+              "А",
+              "apă (вода)"
+            ],
+            [
+              "Ă (ă)",
+              "Э / э",
+              "apă, mână"
+            ],
+            [
+              "Â (â)",
+              "Ы",
+              "râu (река), mâine (завтра)"
+            ],
+            [
+              "B",
+              "Б",
+              "bine (хорошо)"
+            ],
+            [
+              "C",
+              "К",
+              "casă (дом)"
+            ],
+            [
+              "D",
+              "Д",
+              "da (да)"
+            ],
+            [
+              "E",
+              "Е",
+              "ecran, era"
+            ],
+            [
+              "F",
+              "Ф",
+              "frumos (красивый)"
+            ],
+            [
+              "G",
+              "Г",
+              "ghem (клубок)"
+            ],
+            [
+              "H",
+              "Х",
+              "harnĭc (трудолюбивый)"
+            ],
+            [
+              "I",
+              "И",
+              "inimă (сердце)"
+            ],
+            [
+              "Î (î)",
+              "Ы",
+              "început (начало)"
+            ],
+            [
+              "J",
+              "Ж",
+              "joi (четверг)"
+            ],
+            [
+              "K",
+              "К",
+              "kilogram"
+            ],
+            [
+              "L",
+              "Л",
+              "lună (месяц)"
+            ],
+            [
+              "M",
+              "М",
+              "mama"
+            ],
+            [
+              "N",
+              "Н",
+              "noapte (ночь)"
+            ],
+            [
+              "O",
+              "О",
+              "om (человек)"
+            ],
+            [
+              "P",
+              "П",
+              "pâine (хлеб)"
+            ],
+            [
+              "Q",
+              "Кю",
+              "редко используется"
+            ],
+            [
+              "R",
+              "Р",
+              "râu (река)"
+            ],
+            [
+              "S",
+              "С",
+              "soare (солнце)"
+            ],
+            [
+              "Ș (ș)",
+              "Ш",
+              "Sașa, școală"
+            ],
+            [
+              "T",
+              "Т",
+              "tata (папа)"
+            ],
+            [
+              "Ț (ț)",
+              "Ц",
+              "mulțumesc (спасибо)"
+            ],
+            [
+              "U",
+              "У",
+              "unu (один)"
+            ],
+            [
+              "V",
+              "В",
+              "vineri (пятница)"
+            ],
+            [
+              "W",
+              "ВВ",
+              "редко"
+            ],
+            [
+              "X",
+              "Кс / Гз",
+              "text, examen"
+            ],
+            [
+              "Y",
+              "И (гр.)",
+              "редко"
+            ],
+            [
+              "Z",
+              "З",
+              "zi (день)"
+            ]
+          ]
+        },
+        {
+          "type": "note",
+          "variant": "warning",
+          "text": "Главные особенности алфавита:"
+        },
+        {
+          "type": "text",
+          "text": "• Три буквы A: A (а), Ă (э), Â (ы)"
+        },
+        {
+          "type": "text",
+          "text": "• Две буквы I: I (и), Î (ы)   —  Â и Î звучат одинаково!"
+        },
+        {
+          "type": "text",
+          "text": "• S (с) ≠ Ș (ш),  T (т) ≠ Ț (ц)"
+        },
+        {
+          "type": "text",
+          "text": "• H читается как Х (не как в английском)"
+        },
+        {
+          "type": "text",
+          "text": "• X = кс (в начале: Xenia) или гз (examen)"
+        }
+      ]
+    },
+    {
+      "id": "section-2",
+      "number": 2,
+      "title": "ОСОБЫЕ СОЧЕТАНИЯ БУКВ",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "CE, CI = ЧЕ, ЧИ (перед E и I буква C читается как Ч)"
+        },
+        {
+          "type": "table",
+          "rows": [
+            [
+              "Română",
+              "Перевод"
+            ],
+            [
+              "Ce?",
+              "Что?"
+            ],
+            [
+              "Cine?",
+              "Кто?"
+            ],
+            [
+              "cerneală",
+              "чернила"
+            ],
+            [
+              "cerc",
+              "круг"
+            ],
+            [
+              "accent",
+              "акцент"
+            ],
+            [
+              "concert",
+              "концерт"
+            ],
+            [
+              "cilindru",
+              "цилиндр"
+            ],
+            [
+              "aici",
+              "здесь"
+            ],
+            [
+              "arici",
+              "ёжик"
+            ],
+            [
+              "cinci",
+              "пять (5)"
+            ],
+            [
+              "CHE, CHI = КЕ, КИ (добавляем H чтобы C читалась как К)",
+              ""
+            ]
+          ]
+        },
+        {
+          "type": "table",
+          "rows": [
+            [
+              "Română",
+              "Перевод"
+            ],
+            [
+              "ureche / urechi",
+              "ухо / уши"
+            ],
+            [
+              "cheie",
+              "ключ"
+            ],
+            [
+              "chemare",
+              "вызов"
+            ],
+            [
+              "ochi",
+              "глаз / глаза"
+            ],
+            [
+              "ochelari",
+              "очки"
+            ],
+            [
+              "chibrit",
+              "спичка"
+            ],
+            [
+              "chimie",
+              "химия"
+            ],
+            [
+              "China",
+              "Китай"
+            ],
+            [
+              "GE, GI = ДЖЕ, ДЖИ (перед E и I буква G читается как ДЖ)",
+              ""
+            ]
+          ]
+        },
+        {
+          "type": "table",
+          "rows": [
+            [
+              "Română",
+              "Перевод"
+            ],
+            [
+              "ger",
+              "мороз"
+            ],
+            [
+              "girafă",
+              "жираф"
+            ],
+            [
+              "algebră",
+              "алгебра"
+            ],
+            [
+              "geometrie",
+              "геометрия"
+            ],
+            [
+              "Germania",
+              "Германия"
+            ],
+            [
+              "gigant",
+              "гигант"
+            ],
+            [
+              "argint",
+              "серебро"
+            ],
+            [
+              "GHE, GHI = ГЕ, ГИ (добавляем H чтобы G читалась как Г)",
+              ""
+            ]
+          ]
+        },
+        {
+          "type": "table",
+          "rows": [
+            [
+              "Română",
+              "Перевод"
+            ],
+            [
+              "Gheorghe",
+              "Георге (имя)"
+            ],
+            [
+              "gheață",
+              "лёд"
+            ],
+            [
+              "înghețată",
+              "мороженое"
+            ],
+            [
+              "ghid",
+              "гид"
+            ],
+            [
+              "ghilimele „ ”",
+              "кавычки"
+            ],
+            [
+              "ghicitoare",
+              "загадка"
+            ],
+            [
+              "triunghi",
+              "треугольник"
+            ],
+            [
+              "ghiozdan",
+              "рюкзак"
+            ],
+            [
+              "ghiocel",
+              "подснежник"
+            ],
+            [
+              "ghem",
+              "клубок"
+            ]
+          ]
+        },
+        {
+          "type": "note",
+          "variant": "warning",
+          "text": "ПРАВИЛО CE/CI и GE/GI:"
+        },
+        {
+          "type": "text",
+          "text": "• C + E/I = Ч (ce = че, ci = чи)  →  CHE/CHI = КЕ/КИ"
+        },
+        {
+          "type": "text",
+          "text": "• G + E/I = ДЖ (ge = дже, gi = джи)  →  GHE/GHI = ГЕ/ГИ"
+        },
+        {
+          "type": "text",
+          "text": "• Буква H в сочетаниях CH и GH не произносится!"
+        },
+        {
+          "type": "heading",
+          "text": "X = КС или ГЗ"
+        },
+        {
+          "type": "table",
+          "rows": [
+            [
+              "Română",
+              "Перевод"
+            ],
+            [
+              "exercițiu",
+              "упражнение"
+            ],
+            [
+              "examen",
+              "экзамен"
+            ],
+            [
+              "text",
+              "текст"
+            ],
+            [
+              "exact",
+              "точно"
+            ],
+            [
+              "excursie",
+              "экскурсия"
+            ],
+            [
+              "exemplu",
+              "пример"
+            ],
+            [
+              "taxi",
+              "такси"
+            ],
+            [
+              "Xenia",
+              "Ксения"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "section-3",
+      "number": 3,
+      "title": "ПРИВЕТСТВИЯ (SALUTĂRI)",
+      "blocks": [
+        {
+          "type": "table",
+          "rows": [
+            [
+              "Когда?",
+              "Что говорим?"
+            ],
+            [
+              "Утром (dimineața)",
+              "Bună dimineața! — Добрый ранок!"
+            ],
+            [
+              "Днём (ziua)",
+              "Bună ziua! — Добрый день!"
+            ],
+            [
+              "Вечером (seara)",
+              "Bună seara! — Добрый вечер!"
+            ],
+            [
+              "Перед сном (la culcare)",
+              "Noapte bună! — Спокойной ночи!"
+            ],
+            [
+              "При уходе (la plecare)",
+              "La revedere! — До свидания!"
+            ],
+            [
+              "При уходе",
+              "Pe curând! — До скорого!"
+            ],
+            [
+              "До завтра",
+              "Pe mâine! / Până mâine!"
+            ],
+            [
+              "Неформально",
+              "Salut! Noroc! — Привет!"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "section-4",
+      "number": 4,
+      "title": "ВЕЖЛИВЫЕ ФРАЗЫ",
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "Как попросить (Cum cerem ceva)"
+        },
+        {
+          "type": "table",
+          "rows": [
+            [
+              "Română",
+              "Перевод"
+            ],
+            [
+              "O pâine, vă rog.",
+              "Хлеб, пожалуйста."
+            ],
+            [
+              "Un bilet, vă rog.",
+              "Билет, пожалуйста."
+            ],
+            [
+              "Dați-mi, vă rog.",
+              "Дайте мне, пожалуйста."
+            ],
+            [
+              "Ascultați-mă, vă rog.",
+              "Послушайте, пожалуйста."
+            ],
+            [
+              "Poftiți / Poftim",
+              "Пожалуйста (вот, возьмите)"
+            ],
+            [
+              "Scuză-mă",
+              "Прости меня"
+            ],
+            [
+              "Scuzați-mă",
+              "Простите меня"
+            ],
+            [
+              "Puteți repeta?",
+              "Можете повторить?"
+            ]
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Как поблагодарить (A mulțumi)"
+        },
+        {
+          "type": "text",
+          "text": "Mulțumesc! = Спасибо!    Cu mare plăcere! = С большим удовольствием!"
+        },
+        {
+          "type": "table",
+          "rows": [
+            [
+              "Лицо",
+              "Forma",
+              "Перевод"
+            ],
+            [
+              "A mulțumi",
+              "Перевод",
+              "Eu"
+            ],
+            [
+              "mulțumesc",
+              "Я благодарю",
+              "Tu"
+            ],
+            [
+              "mulțumești",
+              "Ты благодаришь",
+              "El/Ea"
+            ],
+            [
+              "mulțumește",
+              "Он/она благодарит",
+              "Noi"
+            ],
+            [
+              "mulțumim",
+              "Мы благодарим",
+              "Voi"
+            ],
+            [
+              "mulțumiți",
+              "Вы благодарите",
+              "Ei/Ele"
+            ]
+          ]
+        },
+        {
+          "type": "note",
+          "variant": "info",
+          "text": "mulțumesc pentru... = спасибо за...: lecție (урок), atenție (внимание), grijă (заботу), ajutor (помощь), bani (деньги), totul (всё)"
+        }
+      ]
+    },
+    {
+      "id": "section-5",
+      "number": 5,
+      "title": "ВОПРОСЫ (ÎNTREBĂRI)",
+      "blocks": [
+        {
+          "type": "table",
+          "rows": [
+            [
+              "Вопрос",
+              "Перевод"
+            ],
+            [
+              "Ce?",
+              "Что? Какой?"
+            ],
+            [
+              "Cine?",
+              "Кто?"
+            ],
+            [
+              "Când?",
+              ""
+            ]
+          ]
+        },
+        {
+          "type": "table",
+          "rows": [
+            [
+              "Когда?",
+              "Ответ"
+            ],
+            [
+              "Unde?",
+              "Где? Куда?"
+            ],
+            [
+              "De unde?",
+              "Откуда?"
+            ],
+            [
+              "Cum?",
+              "Как? Какой?"
+            ],
+            [
+              "Care?",
+              "Какой? Какая? Какие?"
+            ],
+            [
+              "Cât? Câți? Câtă? Câte?",
+              "Сколько?"
+            ],
+            [
+              "Cui?",
+              "Кому?"
+            ],
+            [
+              "Cât costă?",
+              "Сколько стоит?"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "section-6",
+      "number": 6,
+      "title": "МЕСТОИМЕНИЯ (PRONUMELE)",
+      "blocks": [
+        {
+          "type": "table",
+          "rows": [
+            [
+              "Română",
+              "Перевод"
+            ],
+            [
+              "Eu",
+              "Я"
+            ],
+            [
+              "Tu",
+              "Ты"
+            ],
+            [
+              "El",
+              "Он"
+            ],
+            [
+              "Ea",
+              "Она"
+            ],
+            [
+              "Noi",
+              "Мы"
+            ],
+            [
+              "Voi",
+              "Вы"
+            ],
+            [
+              "Ei",
+              "Они (м.р.)"
+            ],
+            [
+              "Ele",
+              "Они (ж.р.)"
+            ],
+            [
+              "Dumneavoastră",
+              "Вы (вежливое)"
+            ]
+          ]
+        },
+        {
+          "type": "note",
+          "variant": "info",
+          "text": "Domnul = Господин, Doamna = Госпожа, Domnișoară = Девушка"
+        }
+      ]
+    },
+    {
+      "id": "section-7",
+      "number": 7,
+      "title": "ГЛАГОЛЫ (VERBELE)",
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "A FI = БЫТЬ"
+        },
+        {
+          "type": "table",
+          "rows": [
+            [
+              "Лицо",
+              "Forma",
+              "Перевод"
+            ],
+            [
+              "A fi",
+              "Перевод",
+              "Eu"
+            ],
+            [
+              "sunt",
+              "Я есть",
+              "Tu"
+            ],
+            [
+              "ești",
+              "Ты есть",
+              "El/Ea"
+            ],
+            [
+              "este (e, -i)",
+              "Он/она есть",
+              "Noi"
+            ],
+            [
+              "suntem",
+              "Мы есть",
+              "Voi"
+            ],
+            [
+              "sunteți",
+              "Вы есть",
+              "Ei/Ele"
+            ]
+          ]
+        },
+        {
+          "type": "note",
+          "variant": "info",
+          "text": "Краткие формы: este → e → -i  (Mama-i acasă = Мама дома)"
+        },
+        {
+          "type": "note",
+          "variant": "info",
+          "text": "Отрицание: nu sunt → nu-s  (Ei nu-s aici = Их нет здесь)"
+        },
+        {
+          "type": "heading",
+          "text": "A AVEA = ИМЕТЬ"
+        },
+        {
+          "type": "table",
+          "rows": [
+            [
+              "Лицо",
+              "Forma",
+              "Перевод"
+            ],
+            [
+              "A avea",
+              "Отрицание",
+              "Eu"
+            ],
+            [
+              "am",
+              "nu am / n-am",
+              "Tu"
+            ],
+            [
+              "ai",
+              "nu ai / n-ai",
+              "El/Ea"
+            ],
+            [
+              "are",
+              "nu are / n-are",
+              "Noi"
+            ],
+            [
+              "avem",
+              "nu avem / n-avem",
+              "Voi"
+            ],
+            [
+              "aveți",
+              "nu aveți / n-aveți",
+              "Ei/Ele"
+            ]
+          ]
+        },
+        {
+          "type": "note",
+          "variant": "info",
+          "text": "Eu am familie. Eu am părinți. Eu n-am copii."
+        },
+        {
+          "type": "heading",
+          "text": "A FACE = ДЕЛАТЬ"
+        },
+        {
+          "type": "table",
+          "rows": [
+            [
+              "Лицо",
+              "Forma",
+              "Перевод"
+            ],
+            [
+              "A face",
+              "Перевод",
+              "Eu"
+            ],
+            [
+              "fac",
+              "Я делаю",
+              "Tu"
+            ],
+            [
+              "faci",
+              "Ты делаешь",
+              "El/Ea"
+            ],
+            [
+              "face",
+              "Он/она делает",
+              "Noi"
+            ],
+            [
+              "facem",
+              "Мы делаем",
+              "Voi"
+            ],
+            [
+              "faceți",
+              "Вы делаете",
+              "Ei/Ele"
+            ]
+          ]
+        },
+        {
+          "type": "note",
+          "variant": "info",
+          "text": "Ce faci? = Как дела? | Mulțumesc, fac bine. = Спасибо, хорошо."
+        }
+      ]
+    },
+    {
+      "id": "section-8",
+      "number": 8,
+      "title": "ДНИ НЕДЕЛИ И МЕСЯЦЫ",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Zilele săptămânii — Дни недели"
+        },
+        {
+          "type": "table",
+          "rows": [
+            [
+              "Română",
+              "Перевод"
+            ],
+            [
+              "Luni",
+              "Понедельник"
+            ],
+            [
+              "Marți",
+              "Вторник"
+            ],
+            [
+              "Miercuri",
+              "Среда"
+            ],
+            [
+              "Joi",
+              "Четверг"
+            ],
+            [
+              "Vineri",
+              "Пятница"
+            ],
+            [
+              "Sâmbătă",
+              "Суббота"
+            ],
+            [
+              "Duminică",
+              "Воскресенье"
+            ]
+          ]
+        },
+        {
+          "type": "note",
+          "variant": "info",
+          "text": "Ce zi este astăzi? = Какой сегодня день?"
+        },
+        {
+          "type": "text",
+          "text": "Lunile anului — Месяцы года"
+        },
+        {
+          "type": "table",
+          "rows": [
+            [
+              "Română",
+              "Перевод"
+            ],
+            [
+              "Ianuarie",
+              "Январь"
+            ],
+            [
+              "Februarie",
+              "Февраль"
+            ],
+            [
+              "Martie",
+              "Март"
+            ],
+            [
+              "Aprilie",
+              "Апрель"
+            ],
+            [
+              "Mai",
+              "Май"
+            ],
+            [
+              "Iunie",
+              "Июнь"
+            ],
+            [
+              "Iulie",
+              "Июль"
+            ],
+            [
+              "August",
+              "Август"
+            ],
+            [
+              "Septembrie",
+              "Сентябрь"
+            ],
+            [
+              "Octombrie",
+              "Октябрь"
+            ],
+            [
+              "Noiembrie",
+              "Ноябрь"
+            ],
+            [
+              "Decembrie",
+              "Декабрь"
+            ]
+          ]
+        },
+        {
+          "type": "note",
+          "variant": "info",
+          "text": "Ce lună este acum? Acum este luna februarie. = Какой сейчас месяц?"
+        },
+        {
+          "type": "heading",
+          "text": "Слова времени (Cuvinte de timp)"
+        },
+        {
+          "type": "table",
+          "rows": [
+            [
+              "Română",
+              "Перевод"
+            ],
+            [
+              "astăzi (azi)",
+              "сегодня"
+            ],
+            [
+              "ieri",
+              "вчера"
+            ],
+            [
+              "alaltăieri",
+              "позавчера"
+            ],
+            [
+              "mâine",
+              "завтра"
+            ],
+            [
+              "poimâine",
+              "послезавтра"
+            ],
+            [
+              "acum",
+              "сейчас"
+            ],
+            [
+              "încă",
+              "пока / ещё"
+            ]
+          ]
+        },
+        {
+          "type": "table",
+          "rows": [
+            [
+              "Română",
+              "Перевод"
+            ],
+            [
+              "zi / zile",
+              "день / дни"
+            ],
+            [
+              "zile de lucru",
+              "рабочие дни"
+            ],
+            [
+              "zile de odihnă",
+              "выходные дни"
+            ],
+            [
+              "zile de sărbătoare",
+              "праздничные дни"
+            ],
+            [
+              "ziua de naștere",
+              "день рождения"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "section-9",
+      "number": 9,
+      "title": "АНТОНИМЫ (ANTONIME)",
+      "blocks": [
+        {
+          "type": "table",
+          "rows": [
+            [
+              "Română",
+              "Перевод",
+              "Противоположное"
+            ],
+            [
+              "aici (здесь)",
+              "↔",
+              "acolo (там)"
+            ],
+            [
+              "aproape (близко)",
+              "↔",
+              "departe (далеко)"
+            ],
+            [
+              "acum (сейчас)",
+              "↔",
+              "atunci (тогда)"
+            ],
+            [
+              "sus (вверх)",
+              "↔",
+              "jos (вниз)"
+            ],
+            [
+              "la stânga (налево)",
+              "↔",
+              "la dreapta (направо)"
+            ],
+            [
+              "scurt (короткий)",
+              "↔",
+              "lung (длинный)"
+            ],
+            [
+              "mic (маленький)",
+              "↔",
+              "mare (большой)"
+            ],
+            [
+              "îngust (узкий)",
+              "↔",
+              "larg (широкий)"
+            ],
+            [
+              "drept (прямой)",
+              "↔",
+              "strâmb (кривой)"
+            ],
+            [
+              "bine (хорошо)",
+              "↔",
+              "rău (плохо)"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "section-10",
+      "number": 10,
+      "title": "СЕМЬЯ (FAMILIA / RUDELE)",
+      "blocks": [
+        {
+          "type": "table",
+          "rows": [
+            [
+              "Română",
+              "Мн. число",
+              "Перевод"
+            ],
+            [
+              "fiu",
+              "fii",
+              "сын / сыновья"
+            ],
+            [
+              "fiică",
+              "fiice",
+              "дочь / дочери"
+            ],
+            [
+              "frate",
+              "frați",
+              "брат / братья"
+            ],
+            [
+              "soră",
+              "surori",
+              "сестра / сестры"
+            ],
+            [
+              "bunic",
+              "bunici",
+              "дедушка"
+            ],
+            [
+              "bunică",
+              "bunici",
+              "бабушка"
+            ],
+            [
+              "verișor",
+              "verișori",
+              "двоюродный брат"
+            ],
+            [
+              "verișoară",
+              "verișoare",
+              "двоюродная сестра"
+            ],
+            [
+              "nepot",
+              "nepoți",
+              "внук / племянник"
+            ],
+            [
+              "nepoată",
+              "nepoate",
+              "внучка / племянница"
+            ],
+            [
+              "soț",
+              "soți",
+              "муж"
+            ],
+            [
+              "soție",
+              "soții",
+              "жена"
+            ],
+            [
+              "tata",
+              "-",
+              "папа"
+            ],
+            [
+              "mama",
+              "-",
+              "мама"
+            ],
+            [
+              "părinți",
+              "-",
+              "родители"
+            ],
+            [
+              "copil",
+              "copii",
+              "ребёнок / дети"
+            ],
+            [
+              "bărbat / domn",
+              "-",
+              "мужчина / господин"
+            ],
+            [
+              "femeie / doamnă",
+              "-",
+              "женщина / госпожа"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "section-11",
+      "number": 11,
+      "title": "СЛОВАРЬ A–Z (CUVINTE NOI)",
+      "blocks": [
+        {
+          "type": "table",
+          "rows": [
+            [
+              "Română (sg. — pl.)",
+              "Перевод"
+            ],
+            [
+              "apă — ape",
+              "вода"
+            ],
+            [
+              "aer",
+              "воздух"
+            ],
+            [
+              "aripă — aripi",
+              "крыло"
+            ],
+            [
+              "bancă — bănci",
+              "банк / парта / лавочка"
+            ],
+            [
+              "cuvânt — cuvinte",
+              "слово"
+            ],
+            [
+              "cetățenie — cetățenii",
+              "гражданство"
+            ],
+            [
+              "dulceață — dulcețuri",
+              "варенье / джем"
+            ],
+            [
+              "eveniment — evenimente",
+              "событие"
+            ],
+            [
+              "floare — flori",
+              "цветок"
+            ],
+            [
+              "grădină — grădini",
+              "сад / огород"
+            ],
+            [
+              "geantă — genți",
+              "сумка"
+            ],
+            [
+              "hârtie — hârtii",
+              "бумага"
+            ],
+            [
+              "hartă — hărți",
+              "карта"
+            ],
+            [
+              "carte — cărți",
+              "книга"
+            ],
+            [
+              "icoană — icoane",
+              "иконка"
+            ],
+            [
+              "început — începuturi",
+              "начало"
+            ],
+            [
+              "jucărie — jucării",
+              "игрушка"
+            ],
+            [
+              "kilogram — kilograme",
+              "килограм"
+            ],
+            [
+              "lingură — linguri",
+              "ложка"
+            ],
+            [
+              "murdărie — murdării",
+              "грязь"
+            ],
+            [
+              "noapte — nopți",
+              "ночь"
+            ],
+            [
+              "oprire — opriri",
+              "остановка"
+            ],
+            [
+              "plantă — plante",
+              "растение"
+            ],
+            [
+              "riglă — rigle",
+              "линейка"
+            ],
+            [
+              "sare — săruri",
+              "соль"
+            ],
+            [
+              "școlar — școlari",
+              "ученик"
+            ],
+            [
+              "tânăr — tineri",
+              "молодой"
+            ],
+            [
+              "țară — țări",
+              "страна"
+            ],
+            [
+              "umezeală — umezeli",
+              "влажность"
+            ],
+            [
+              "valoare — valori",
+              "ценность"
+            ],
+            [
+              "zăpadă — zăpezi",
+              "снег"
+            ]
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Профессии (Profesii)"
+        },
+        {
+          "type": "table",
+          "rows": [
+            [
+              "M (муж.)",
+              "F (жен.)",
+              "Перевод"
+            ],
+            [
+              "student",
+              "studentă",
+              "студент"
+            ],
+            [
+              "elev",
+              "elevă",
+              "ученик"
+            ],
+            [
+              "muncitor",
+              "muncitoare",
+              "работник"
+            ]
+          ]
+        },
+        {
+          "type": "table",
+          "rows": [
+            [
+              "M (муж.)",
+              "F (жен.)",
+              "Перевод"
+            ],
+            [
+              "profesor",
+              "profesoară",
+              "профессор"
+            ],
+            [
+              "învățător",
+              "învățătoare",
+              "учитель"
+            ],
+            [
+              "artist",
+              "artistă",
+              "артист"
+            ],
+            [
+              "pictor",
+              "pictoriță",
+              "художник"
+            ],
+            [
+              "bucătar",
+              "bucătăreasă",
+              "повар"
+            ],
+            [
+              "contabil",
+              "contabilă",
+              "бухгалтер"
+            ],
+            [
+              "medic",
+              "medic",
+              "врач"
+            ],
+            [
+              "inginer",
+              "inginer",
+              "инженер"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "section-12",
+      "number": 12,
+      "title": "ПОЛЕЗНЫЕ ФРАЗЫ",
+      "blocks": [
+        {
+          "type": "table",
+          "rows": [
+            [
+              "Română",
+              "Перевод"
+            ],
+            [
+              "Eu sunt Artem.",
+              "Я Артём."
+            ],
+            [
+              "Cine sunteți Dumneavoastră?",
+              "Кто Вы?"
+            ],
+            [
+              "Cum sunteți Dumneavoastră?",
+              ""
+            ]
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Как Вы? (Какой/Какая)"
+        },
+        {
+          "type": "table",
+          "rows": [
+            [
+              "Română",
+              "Перевод"
+            ],
+            [
+              "Unde sunteți acum?",
+              "Где Вы сейчас?"
+            ]
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Как дела?"
+        },
+        {
+          "type": "table",
+          "rows": [
+            [
+              "Română",
+              "Перевод"
+            ],
+            [
+              "Mulțumesc, fac bine.",
+              "Спасибо, хорошо."
+            ],
+            [
+              "Totul este bine.",
+              "Всё хорошо."
+            ],
+            [
+              "Slavă Domnului!",
+              "Слава Богу!"
+            ],
+            [
+              "Eu am familie.",
+              "У меня есть семья."
+            ],
+            [
+              "Eu nu fac nimic.",
+              "Я ничего не делаю."
+            ],
+            [
+              "Așa este viața.",
+              "Такова жизнь."
+            ],
+            [
+              "Eu nu am nimic.",
+              "У меня ничего нет."
+            ],
+            [
+              "Încă nu am totul.",
+              "Пока у меня не всё."
+            ]
+          ]
+        },
+        {
+          "type": "note",
+          "variant": "warning",
+          "text": "ВАЖНО: Муж. и Жен. род"
+        },
+        {
+          "type": "text",
+          "text": "• Мужской: frumos, bun, atent, harnic, stăruitor"
+        },
+        {
+          "type": "text",
+          "text": "• Женский: frumoasă, bună, atentă, harnică, stăruitoare"
+        },
+        {
+          "type": "text",
+          "text": "• Обычно: м.р. → -ă или -oasă / -toare для ж.р."
+        },
+        {
+          "type": "heading",
+          "text": "Диалог в магазине"
+        },
+        {
+          "type": "text",
+          "text": "- Bună ziua!"
+        },
+        {
+          "type": "text",
+          "text": "- Bună ziua. Ce doriți?  (Что желаете?)"
+        },
+        {
+          "type": "text",
+          "text": "- O cafea. Cât costă?  (Сколько стоит?)"
+        },
+        {
+          "type": "text",
+          "text": "- Trei lei. Poftiți..."
+        },
+        {
+          "type": "text",
+          "text": "- Mai doriți ceva?  (Ещё желаете что-то?)"
+        },
+        {
+          "type": "text",
+          "text": "- Da, o franzelă. Cât costă?"
+        },
+        {
+          "type": "text",
+          "text": "- Nouă lei. Poftiți..."
+        },
+        {
+          "type": "text",
+          "text": "- Mulțumesc!"
+        },
+        {
+          "type": "text",
+          "text": "- Cu mare plăcere!  (С большим удовольствием!)"
+        }
+      ]
+    },
+    {
+      "id": "section-13",
+      "number": 13,
+      "title": "ЧИСЛА (NUMERALELE)",
+      "blocks": [
+        {
+          "type": "table",
+          "rows": [
+            [
+              "Română",
+              "Перевод"
+            ],
+            [
+              "0",
+              "zero"
+            ],
+            [
+              "ноль",
+              "1"
+            ],
+            [
+              "unu (M) / una (F)",
+              "один / одна"
+            ],
+            [
+              "2",
+              "doi (M) / două (F)"
+            ],
+            [
+              "два / две",
+              "3"
+            ],
+            [
+              "trei",
+              "три"
+            ],
+            [
+              "4",
+              "patru"
+            ],
+            [
+              "четыре",
+              "5"
+            ],
+            [
+              "cinci",
+              "пять"
+            ],
+            [
+              "6",
+              "șase"
+            ],
+            [
+              "шесть",
+              "7"
+            ],
+            [
+              "șapte",
+              "семь"
+            ],
+            [
+              "8",
+              "opt"
+            ],
+            [
+              "восемь",
+              "9"
+            ],
+            [
+              "nouă",
+              "девять"
+            ],
+            [
+              "10",
+              "zece"
+            ],
+            [
+              "десять",
+              "11"
+            ],
+            [
+              "unsprezece",
+              "одиннадцать"
+            ],
+            [
+              "12",
+              "doisprezece (M) /"
+            ],
+            [
+              "douăsprezece (F)",
+              "двенадцать"
+            ],
+            [
+              "13",
+              "treisprezece"
+            ],
+            [
+              "тринадцать",
+              "14"
+            ],
+            [
+              "paisprezece",
+              "четырнадцать"
+            ],
+            [
+              "15",
+              "cincisprezece"
+            ],
+            [
+              "пятнадцать",
+              "16"
+            ],
+            [
+              "șaisprezece",
+              "шестнадцать"
+            ],
+            [
+              "17",
+              "șaptesprezece"
+            ],
+            [
+              "семнадцать",
+              "18"
+            ],
+            [
+              "optsprezece",
+              "восемнадцать"
+            ],
+            [
+              "19",
+              "nouăsprezece"
+            ],
+            [
+              "девятнадцать",
+              "20"
+            ],
+            [
+              "douăzeci",
+              "двадцать"
+            ]
+          ]
+        },
+        {
+          "type": "note",
+          "variant": "info",
+          "text": "Числа 11–19 = цифра + sprezece (надцать). Напр.: un + sprezece = unsprezece"
+        },
+        {
+          "type": "note",
+          "variant": "info",
+          "text": "Род важен! 1 и 2 меняются по роду: unu/una, doi/două, doisprezece/douăsprezece"
+        },
+        {
+          "type": "table",
+          "rows": [
+            [
+              "Число",
+              "Română"
+            ],
+            [
+              "0–20",
+              "21–100: Десятки и составные числа"
+            ]
+          ]
+        },
+        {
+          "type": "table",
+          "rows": [
+            [
+              "Română",
+              "Перевод"
+            ],
+            [
+              "20",
+              "douăzeci"
+            ],
+            [
+              "21",
+              "douăzeci și unu (M) / una (F)"
+            ],
+            [
+              "22",
+              "douăzeci și doi (M) / două (F)"
+            ],
+            [
+              "23",
+              "douăzeci și trei"
+            ],
+            [
+              "30",
+              "treizeci"
+            ],
+            [
+              "40",
+              "patruzeci"
+            ],
+            [
+              "50",
+              "cincizeci"
+            ],
+            [
+              "60",
+              "șaizeci"
+            ],
+            [
+              "70",
+              "șaptezeci"
+            ]
+          ]
+        },
+        {
+          "type": "table",
+          "rows": [
+            [
+              "Число",
+              "Română"
+            ],
+            [
+              "80",
+              "optzeci"
+            ],
+            [
+              "90",
+              "nouăzeci"
+            ],
+            [
+              "100",
+              "o sută"
+            ]
+          ]
+        },
+        {
+          "type": "note",
+          "variant": "warning",
+          "text": "ПРАВИЛО составных чисел:"
+        },
+        {
+          "type": "text",
+          "text": "• Десятки = цифра + zeci: trei+zeci = 30, patru+zeci = 40"
+        },
+        {
+          "type": "text",
+          "text": "• Десяток + și + единица: douăzeci și cinci = 25"
+        },
+        {
+          "type": "text",
+          "text": "• o sută = 100 (буквально: одна сотня)"
+        },
+        {
+          "type": "heading",
+          "text": "Сотни и тысячи"
+        },
+        {
+          "type": "table",
+          "rows": [
+            [
+              "Română",
+              "Перевод"
+            ],
+            [
+              "100",
+              "o sută"
+            ],
+            [
+              "200",
+              "două sute"
+            ],
+            [
+              "300",
+              "trei sute"
+            ],
+            [
+              "400",
+              "patru sute"
+            ],
+            [
+              "500",
+              "cinci sute"
+            ],
+            [
+              "600",
+              "șase sute"
+            ],
+            [
+              "700",
+              "șapte sute"
+            ],
+            [
+              "800",
+              "opt sute"
+            ],
+            [
+              "900",
+              "nouă sute"
+            ],
+            [
+              "1 000",
+              "o mie"
+            ],
+            [
+              "2 000",
+              "două mii"
+            ],
+            [
+              "1 000 000",
+              "un milion / două milioane"
+            ],
+            [
+              "1 000 000 000",
+              "un miliard / două miliarde"
+            ]
+          ]
+        },
+        {
+          "type": "note",
+          "variant": "info",
+          "text": "100 = o sută, но 200+ = X sute (мн.ч.). 1000 = o mie, но 2000+ = X mii"
+        },
+        {
+          "type": "heading",
+          "text": "Примеры составных чисел"
+        },
+        {
+          "type": "table",
+          "rows": [
+            [
+              "Română",
+              "Перевод"
+            ],
+            [
+              "652",
+              "șase sute cincizeci și doi"
+            ],
+            [
+              "14",
+              "paisprezece"
+            ],
+            [
+              "79",
+              "șaptezeci și nouă"
+            ],
+            [
+              "444",
+              "patru sute patruzeci și patru"
+            ],
+            [
+              "803",
+              "opt sute trei"
+            ],
+            [
+              "83",
+              "optzeci și trei"
+            ],
+            [
+              "999",
+              "nouă sute nouăzeci și nouă"
+            ],
+            [
+              "1 009",
+              "o mie nouă"
+            ],
+            [
+              "9 000",
+              "nouă mii"
+            ],
+            [
+              "1 763",
+              "o mie șapte sute șaizeci și trei"
+            ]
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Года (Anul)"
+        },
+        {
+          "type": "heading",
+          "text": "Год"
+        },
+        {
+          "type": "table",
+          "rows": [
+            [
+              "Română",
+              "Перевод"
+            ],
+            [
+              "2024",
+              "două mii douăzeci și patru"
+            ],
+            [
+              "1989",
+              "o mie nouă sute optzeci și nouă"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "section-14",
+      "number": 14,
+      "title": "ВОЗРАСТ И ДЕНЬ РОЖДЕНИЯ",
+      "blocks": [
+        {
+          "type": "table",
+          "rows": [
+            [
+              "Română",
+              "Перевод"
+            ],
+            [
+              "Câți ani aveți?",
+              "Сколько вам лет?"
+            ],
+            [
+              "Câți ani ai?",
+              "Сколько тебе лет?"
+            ],
+            [
+              "Am ... ani.",
+              "Мне ... лет."
+            ],
+            [
+              "Am treizeci de ani.",
+              "Мне 30 лет."
+            ],
+            [
+              "Când este Ziua ta de naștere?",
+              "Когда твой день рождения?"
+            ],
+            [
+              "Când v-ați născut?",
+              "Когда вы родились?"
+            ],
+            [
+              "M-am născut pe ...",
+              "Я родился/родилась ..."
+            ],
+            [
+              "Пожелания здоровья (Sănătate)",
+              ""
+            ]
+          ]
+        },
+        {
+          "type": "table",
+          "rows": [
+            [
+              "Română",
+              "Перевод / Кому?"
+            ],
+            [
+              "Fiți sănătos!",
+              "Будьте здоровы! (муж. ед.ч.)"
+            ],
+            [
+              "Fiți sănătoasă!",
+              "Будьте здоровы! (жен. ед.ч.)"
+            ],
+            [
+              "Fiți sănătoși!",
+              "Будьте здоровы! (муж. мн.ч.)"
+            ],
+            [
+              "Fiți sănătoase!",
+              "Будьте здоровы! (жен. мн.ч.)"
+            ],
+            [
+              "Multă sănătate și pace!",
+              "Много здоровья и мира!"
+            ]
+          ]
+        },
+        {
+          "type": "note",
+          "variant": "warning",
+          "text": "Род в пожеланиях:"
+        },
+        {
+          "type": "text",
+          "text": "• M ед.ч.: sănătos  |  M мн.ч.: sănătoși"
+        },
+        {
+          "type": "text",
+          "text": "• F ед.ч.: sănătoasă  |  F мн.ч.: sănătoase"
+        },
+        {
+          "type": "text",
+          "text": "Поздравления"
+        },
+        {
+          "type": "text",
+          "text": "Vă felicit cu Ziua / Sărbătoarea de 8 Martie! = Поздравляю с праздником 8 Марта!"
+        }
+      ]
+    },
+    {
+      "id": "section-15",
+      "number": 15,
+      "title": "ВРЕМЕНА ГОДА И ВОПРОСЫ О  ВРЕМЕНИ",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Câte anotimpuri sunt? = Сколько времён года? — 4"
+        },
+        {
+          "type": "table",
+          "rows": [
+            [
+              "Română",
+              "Перевод"
+            ],
+            [
+              "Primăvara",
+              "Весна ℹ️"
+            ],
+            [
+              "Vara",
+              "Лето ℹ️"
+            ],
+            [
+              "Toamna",
+              "Осень ℹ️"
+            ],
+            [
+              "Iarna",
+              "Зима ℹ️"
+            ],
+            [
+              "Вопросы о времени",
+              ""
+            ]
+          ]
+        },
+        {
+          "type": "table",
+          "rows": [
+            [
+              "Вопрос",
+              "Ответ"
+            ],
+            [
+              "Câte luni în an?",
+              "12 (douăsprezece)"
+            ],
+            [
+              "Câte zile în săptămână?",
+              "7 (șapte)"
+            ],
+            [
+              "Câte zile în an?",
+              "365 / 366"
+            ],
+            [
+              "Câte zile în lună?",
+              "28 / 29 / 30 / 31"
+            ],
+            [
+              "Новые слова о времени",
+              ""
+            ]
+          ]
+        },
+        {
+          "type": "table",
+          "rows": [
+            [
+              "Română",
+              "Перевод"
+            ],
+            [
+              "Mâine",
+              "Завтра"
+            ],
+            [
+              "Poimâine",
+              "Послезавтра"
+            ],
+            [
+              "Cină",
+              "Ужин"
+            ],
+            [
+              "Mână / Mâini",
+              "Рука / Руки"
+            ],
+            [
+              "Cine?",
+              "Кто?"
+            ]
+          ]
+        },
+        {
+          "type": "note",
+          "variant": "info",
+          "text": "Mână ≠ Mâine ≠ Mâini: рука ≠ завтра ≠ руки"
+        }
+      ]
+    },
+    {
+      "id": "section-16",
+      "number": 16,
+      "title": "ДОПОЛНИТЕЛЬНЫЕ АНТОНИМЫ И  НАПРАВЛЕНИЯ",
+      "blocks": [
+        {
+          "type": "table",
+          "rows": [
+            [
+              "Română",
+              "Перевод"
+            ],
+            [
+              "Aici ↔ Acolo",
+              "Здесь ↔ Там"
+            ],
+            [
+              "Aproape ↔ Departe",
+              "Близко ↔ Далеко"
+            ],
+            [
+              "Acum ↔ Atunci",
+              "Сейчас ↔ Тогда"
+            ],
+            [
+              "Sus ↔ Jos",
+              "Вверху ↔ Внизу"
+            ],
+            [
+              "La stânga ↔ La dreapta",
+              "Налево ↔ Направо"
+            ],
+            [
+              "Scurt ↔ Lung",
+              "Короткий ↔ Длинный"
+            ],
+            [
+              "Mic ↔ Mare",
+              "Маленький ↔ Большой"
+            ],
+            [
+              "Îngust ↔ Larg",
+              "Узкий ↔ Широкий"
+            ],
+            [
+              "Drept ↔ Strâmb",
+              "Прямой ↔ Кривой"
+            ],
+            [
+              "Înainte ↔ Înapoi",
+              "Вперёд ↔ Назад"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "section-17",
+      "number": 17,
+      "title": "ПОРЯДКОВЫЕ, УКАЗАТЕЛЬНЫЕ,  ПРИЛАГАТЕЛЬНЫЕ",
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "Primul / Ultimul (Первый / Последний)"
+        },
+        {
+          "type": "table",
+          "rows": [
+            [
+              "",
+              "M ед.ч.",
+              "F ед.ч.",
+              "M мн.ч. / F мн.ч."
+            ],
+            [
+              "Первый",
+              "primul",
+              "prima",
+              "primii / primele"
+            ],
+            [
+              "Последний",
+              "ultimul",
+              "ultima",
+              "ultimii / ultimele"
+            ]
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Amândoi / Tot (Оба / Все)"
+        },
+        {
+          "type": "table",
+          "rows": [
+            [
+              "",
+              "M ед.ч.",
+              "F ед.ч.",
+              "M мн.ч. / F мн.ч."
+            ],
+            [
+              "Оба/обе",
+              "amândoi / ambii",
+              "amândouă / ambele",
+              "—"
+            ],
+            [
+              "Весь/вся/все",
+              "tot",
+              "toată",
+              "toți / toate"
+            ]
+          ]
+        },
+        {
+          "type": "note",
+          "variant": "info",
+          "text": "Totul = всё (everything)"
+        },
+        {
+          "type": "heading",
+          "text": "Указательные местоимения (этот/эта/эти)"
+        },
+        {
+          "type": "table",
+          "rows": [
+            [
+              "",
+              "M ед.ч.",
+              "F ед.ч.",
+              "M мн.ч. / F мн.ч."
+            ],
+            [
+              "Этот",
+              "acesta",
+              "aceasta",
+              "aceștia / acestea"
+            ]
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Прилагательные (Bun / Rău)"
+        },
+        {
+          "type": "table",
+          "rows": [
+            [
+              "",
+              "M ед.ч.",
+              "F ед.ч.",
+              "M мн.ч. / F мн.ч."
+            ],
+            [
+              "Хороший",
+              "bun",
+              "bună",
+              "buni / bune"
+            ],
+            [
+              "Плохой",
+              "rău",
+              "rea",
+              "răi / rele"
+            ]
+          ]
+        },
+        {
+          "type": "note",
+          "variant": "warning",
+          "text": "ПАТТЕРН род/число: Все прилагательные, порядковые и указательные имеют 4 формы: M ед.ч., F ед.ч., M мн.ч., F мн.ч. Пример: bun → bună → buni → bune"
+        },
+        {
+          "type": "heading",
+          "text": "Пары местоимений (повторение)"
+        },
+        {
+          "type": "table",
+          "rows": [
+            [
+              "Română",
+              "Перевод"
+            ],
+            [
+              "Eu și tu",
+              "Я и ты"
+            ],
+            [
+              "Eu și voi",
+              "Я и вы"
+            ],
+            [
+              "Noi și voi",
+              "Мы и вы"
+            ],
+            [
+              "El și ea",
+              "Он и она"
+            ],
+            [
+              "Ei și ele",
+              "Они (M) и они (F)"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}
