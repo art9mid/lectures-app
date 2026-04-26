@@ -23,6 +23,7 @@ import {
   X,
   ArrowRight,
   Loader2,
+  Languages,
 } from "lucide-react";
 
 /* ── Search result types ── */
@@ -542,6 +543,17 @@ export default function Home() {
             </kbd>
           </button>
 
+          {/* Translate button */}
+          <a
+            href="https://translate.google.com/?sl=ru&tl=ro&op=translate"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="w-8 h-8 sm:w-7 sm:h-7 rounded-md bg-bg-hover flex items-center justify-center hover:bg-bg-active transition-colors cursor-pointer flex-shrink-0"
+            title="Translate RU → RO"
+          >
+            <Languages className="w-4 h-4 sm:w-3.5 sm:h-3.5 text-text-secondary" />
+          </a>
+
           {/* Current source label — desktop only */}
           <span className="text-[12px] text-text-muted hidden md:block flex-shrink-0 truncate max-w-48">
             {currentSource.label}
@@ -689,6 +701,7 @@ export default function Home() {
           </div>
         </div>
       )}
+
     </div>
   );
 }
