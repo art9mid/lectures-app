@@ -518,10 +518,10 @@ export default function Home() {
       <main className="flex-1 flex flex-col min-w-0">
         {/* Top bar */}
         <header className="h-12 sm:h-11 flex items-center px-3 sm:px-4 border-b border-border bg-bg-surface flex-shrink-0 gap-2 sm:gap-3">
-          {/* Menu button (always visible on mobile, sidebar toggle on desktop) */}
+          {/* Menu button — mobile only */}
           <button
             onClick={() => setSidebarOpen(!sidebarOpen)}
-            className="w-8 h-8 sm:w-7 sm:h-7 rounded-md bg-bg-hover flex items-center justify-center hover:bg-bg-active transition-colors cursor-pointer flex-shrink-0"
+            className="w-8 h-8 sm:w-7 sm:h-7 rounded-md bg-bg-hover flex items-center justify-center hover:bg-bg-active transition-colors cursor-pointer flex-shrink-0 lg:hidden"
           >
             {sidebarOpen ? (
               <ChevronLeft className="w-4 h-4 sm:w-3.5 sm:h-3.5 text-text-secondary" />
