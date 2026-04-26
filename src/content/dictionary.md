@@ -37,6 +37,7 @@ Romanian-Russian dictionary with examples from all lectures.
 | arici (pl. arici) | ёжик | Un arici, doi arici. — Один ёжик, два ёжика. |
 | aripa (pl. aripi) | крыло | Pasarea are doua aripi. — Птица имеет два крыла. |
 | artist / artista | артист / артистка | El este artist. — Он артист. |
+| artista (pl. artiste) | артистка | Ea este artista. — Она артистка. |
 | Ascultati-ma, va rog. | Послушайте, пожалуйста. | Ascultati-ma, va rog. |
 | astazi (azi) | сегодня | Ce zi este astazi? — Какой сегодня день? |
 | atentie | внимание | Multumesc pentru atentie. — Спасибо за внимание. |
@@ -60,6 +61,8 @@ Romanian-Russian dictionary with examples from all lectures.
 | botin (pl. botini) | ботинок | Un botin, doi botini. — Один ботинок, два ботинка. |
 | brad (pl. brazi) | ёлка | Un brad, doi brazi. — Одна ёлка, две ёлки. |
 | brutar (pl. brutari) | пекарь | Brutarul face paine. — Пекарь делает хлеб. |
+| bautura (pl. bauturi) | напиток | O bautura, doua bauturi. — Один напиток, два напитка. |
+| bere | пиво | O bere, va rog. — Пиво, пожалуйста. |
 | bucatar / bucatareasa | повар (м. / ж.) | El este bucatar. — Он повар. |
 | bucurie (pl. bucurii) | радость | Eu am bucurii. — У меня есть радости. |
 | bucuros / bucuroasa | радостный / радостная | Ea este bucuroasa. — Она радостная. |
@@ -77,7 +80,9 @@ Romanian-Russian dictionary with examples from all lectures.
 
 | Romana | Перевод | Пример |
 |--------|---------|--------|
-| cafea | кофе | O cafea, va rog. — Кофе, пожалуйста. |
+| cafea (pl. cafele) | кофе | O cafea, va rog. — Кофе, пожалуйста. |
+| cafenea (pl. cafenele) | кафе (заведение) | O cafenea, doua cafenele. — Одно кафе, два кафе. |
+| canapea (pl. canapele) | диван | O canapea, doua canapele. — Один диван, два дивана. |
 | caine (pl. caini) | собака | Un caine, doi caini. — Одна собака, две собаки. |
 | Cand? | Когда? | Cand este Ziua ta de nastere? — Когда твой день рождения? |
 | Care? | Какой? Какая? Какие? | Care este numele tau? — Какое твоё имя? |
@@ -92,6 +97,7 @@ Romanian-Russian dictionary with examples from all lectures.
 | cerneala | чернила | Cerneala este neagra. — Чернила чёрные. |
 | cetatenie (pl. cetateniile) | гражданство | Am cetatenie romana. — У меня румынское гражданство. |
 | ceva | что-то | Mai doriti ceva? — Ещё желаете что-то? |
+| chefir / chisleac | кефир | Un chefir, va rog. — Кефир, пожалуйста. |
 | cheie | ключ | Am o cheie. — У меня есть ключ. |
 | chemare | вызов | Chemare este importanta. — Вызов важен. |
 | chibrit | спичка | Un chibrit, va rog. — Спичку, пожалуйста. |
@@ -102,8 +108,14 @@ Romanian-Russian dictionary with examples from all lectures.
 | Cine? | Кто? | Cine sunteti Dumneavoastra? — Кто Вы? |
 | coleg (pl. colegi) | коллега | Un coleg, doi colegi. — Один коллега, два коллеги. |
 | concert | концерт | Concertul este frumos. — Концерт красивый. |
+| compot | компот | Compotul este gustos. — Компот вкусный. |
+| coneac | коньяк | Un coneac, va rog. — Коньяк, пожалуйста. |
 | conocut (pl. cunoscuti) | знакомый | Un cunoscut, doi cunoscuti. |
 | contabil / contabila | бухгалтер (м. / ж.) | El este contabil. — Он бухгалтер. |
+| coditura (pl. codituri) | поворот | O coditura, doua codituri. |
+| croitoreasă | портниха | Ea este croitoreasă. — Она портниха. |
+| cultura (pl. culturi) | культура | O cultura, doua culturi. |
+| curea (pl. curele) | ремень | O curea, doua curele. — Один ремень, два ремня. |
 | copac (pl. copaci) | дерево | Un copac, doi copaci. — Одно дерево, два дерева. |
 | copil (pl. copii) | ребёнок (pl. дети) | Eu am copii. — У меня есть дети. |
 | creier | мозг | Creierul este important. — Мозг важен. |
@@ -127,6 +139,8 @@ Romanian-Russian dictionary with examples from all lectures.
 | De unde? | Откуда? | De unde esti? — Откуда ты? |
 | Decembrie | Декабрь | In decembrie este iarna. — В декабре зима. |
 | departe | далеко | Scoala este departe. — Школа далеко. |
+| doamna (pl. doamne) | госпожа / женщина | Doamna este profesoara. — Госпожа — учительница. |
+| domnisoara | девушка | Domnisoara este eleva. — Девушка — ученица. |
 | dinte (pl. dinti) | зуб | Un dinte, doi dinti. — Один зуб, два зуба. |
 | director (pl. directori) | директор | Directorul este bun. — Директор хороший. |
 | doamna | госпожа / женщина | Doamna este profesoara. — Госпожа — учительница. |
@@ -152,7 +166,9 @@ Romanian-Russian dictionary with examples from all lectures.
 | ei | они (м.р.) | Ei sunt studenti. — Они студенты. |
 | el | он | El este profesor. — Он профессор. |
 | ele | они (ж.р.) | Ele sunt studente. — Они студентки. |
+| educator / educatoare | воспитатель / воспитательница | Ea este educatoare. — Она воспитательница. |
 | elev / eleva | ученик / ученица | El este elev. — Он ученик. |
+| englez / englezoaica | англичанин / англичанка | El este englez. Ea este englezoaica. |
 | eu | я | Eu sunt Artem. — Я Артём. |
 | euro | евро | El are 500 de euro. — У него 500 евро. |
 | eveniment (pl. evenimente) | событие | Un eveniment important. — Важное событие. |
@@ -169,6 +185,8 @@ Romanian-Russian dictionary with examples from all lectures.
 | Romana | Перевод | Пример |
 |--------|---------|--------|
 | familie | семья | Eu am familie. — У меня есть семья. |
+| farmacist / farmacista | фармацевт (м. / ж.) | Ea este farmacista. — Она фармацевт. |
+| francez / frantuzoaica | француз / француженка | El este francez. — Он француз. |
 | Februarie | Февраль | Acum este luna februarie. — Сейчас февраль. |
 | femeie (pl. femei) | женщина | Aici sunt 14 femei. — Здесь 14 женщин. |
 | fiica (pl. fiice) | дочь | O fiica, doua fiice. — Одна дочь, две дочери. |
@@ -196,6 +214,7 @@ Romanian-Russian dictionary with examples from all lectures.
 | ghilimele | кавычки | Pune ghilimele „ ". — Поставь кавычки. |
 | ghiocel | подснежник | Ghiocelul este frumos. — Подснежник красивый. |
 | ghiozdan | рюкзак | Ghiozdanul este greu. — Рюкзак тяжёлый. |
+| gara (pl. gari) | вокзал | Gara este aproape. — Вокзал близко. |
 | ghem | клубок | Un ghem de lana. — Клубок шерсти. |
 | gigant | гигант | Un gigant puternic. — Могучий гигант. |
 | girafa | жираф | Girafa este inalta. — Жираф высокий. |
@@ -265,6 +284,9 @@ Romanian-Russian dictionary with examples from all lectures.
 | Romana | Перевод | Пример |
 |--------|---------|--------|
 | La revedere! | До свидания! | La revedere! Pe curand! |
+| lada (pl. lazi) | ящик | O lada, doua lazi. — Один ящик, два ящика. |
+| lalea (pl. lalele) | тюльпан | O lalea, doua lalele. — Один тюльпан, два тюльпана. |
+| lapte | молоко | Un pahar de lapte. — Стакан молока. |
 | la stanga | налево | La stanga este scoala. — Налево школа. |
 | la dreapta | направо | La dreapta este magazinul. — Направо магазин. |
 | larg / larga | широкий / широкая | Strada este larga. — Улица широкая. |
@@ -273,6 +295,7 @@ Romanian-Russian dictionary with examples from all lectures.
 | leu (pl. lei) | лев / лей | Un leu, doi lei. — Один лев, два льва. |
 | lingura (pl. linguri) | ложка | O lingura, doua linguri. — Одна ложка, две ложки. |
 | lucrator (pl. lucratori) | работник | Lucratorul este harnic. — Работник трудолюбивый. |
+| lulea (pl. lulele) | люлька | O lulea, doua lulele. |
 | luna (pl. luni) | месяц / луна | Ce luna este acum? — Какой сейчас месяц? |
 | lung / lunga | длинный / длинная | Ziua este lunga. — День длинный. |
 | Luni | Понедельник | Luni este prima zi de lucru. — Понедельник — первый рабочий день. |
@@ -287,6 +310,8 @@ Romanian-Russian dictionary with examples from all lectures.
 | Mai | Май | In mai este primavara. — В мае весна. |
 | maine | завтра | Pe maine! — До завтра! |
 | mama | мама | Mama — cuvantul cel mai frumos. |
+| mamica (pl. mamici) | мамочка | Mamica este acasa. — Мамочка дома. |
+| mancare (pl. mancaruri) | еда, блюдо | O mancare, doua mancaruri. — Одно блюдо, два блюда. |
 | mana (pl. maini) | рука (pl. руки) | O mana, doua maini. — Одна рука, две руки. |
 | mandru / mandra | гордый / гордая | El este mandru. — Он гордый. |
 | mar (pl. meri) | яблоня | Un mar, doi meri. — Одна яблоня, две яблони. |
@@ -302,6 +327,7 @@ Romanian-Russian dictionary with examples from all lectures.
 | milion (pl. milioane) | миллион | Un milion de oameni. — Миллион людей. |
 | miliard (pl. miliarde) | миллиард | Un miliard de lei. — Миллиард леев. |
 | ministru (pl. ministri) | министр | Un ministru, doi ministri. |
+| moldovean / moldoveanca | молдаванин / молдаванка | El este moldovean. — Он молдаванин. |
 | minus | минус | Zece minus patru este egal sase. — 10 - 4 = 6. |
 | mire (pl. miri) | жених | Un mire, doi miri. — Один жених, два жениха. |
 | morcov (pl. morcovi) | морковь | Un morcov, doi morcovi. — Одна морковь, две моркови. |
@@ -318,12 +344,15 @@ Romanian-Russian dictionary with examples from all lectures.
 
 | Romana | Перевод | Пример |
 |--------|---------|--------|
+| neamt / nemtoaica | немец / немка | El este neamt. — Он немец. |
 | negru / neagra | чёрный / чёрная | Cerneala este neagra. — Чернила чёрные. |
 | nepot (pl. nepoti) | внук / племянник | Un nepot, doi nepoti. |
 | nepoata (pl. nepoate) | внучка / племянница | O nepoata, doua nepoate. |
 | nervos / nervoasa | нервный / нервная | El este nervos. — Он нервный. |
 | nimic | ничего | Eu nu fac nimic. — Я ничего не делаю. |
 | noapte (pl. nopti) | ночь | Noapte buna! — Спокойной ночи! |
+| noptiera (pl. noptiere) | тумбочка | O noptiera, doua noptiere. — Одна тумбочка, две тумбочки. |
+| nuia (pl. nuiele) | палка | O nuia, doua nuiele. — Одна палка, две палки. |
 | Noiembrie | Ноябрь | In noiembrie este toamna. |
 | Noroc! | Привет! / Удачи! | Noroc! Cum esti? — Привет! Как ты? |
 | nostru / noastra | наш / наша | Tara noastra este frumoasa. — Наша страна красивая. |
@@ -338,7 +367,9 @@ Romanian-Russian dictionary with examples from all lectures.
 | Romana | Перевод | Пример |
 |--------|---------|--------|
 | o | одна / неопр. артикль (ж.р.) | O cafea, va rog. — Кофе, пожалуйста. |
+| oaie (pl. oi) | овца | O oaie, doua oi. — Одна овца, две овцы. |
 | oaspete (pl. oaspeti) | гость | Un oaspete, doi oaspeti. — Один гость, два гостя. |
+| ograda (pl. ograzi) | двор | O ograda, doua ograzi. — Один двор, два двора. |
 | obraz (pl. obraji) | щека | Un obraz, doi obraji. — Одна щека, две щеки. |
 | ochelari | очки | Ochelarii sunt pe masa. — Очки на столе. |
 | ochi (pl. ochi) | глаз | Un ochi, doi ochi. — Один глаз, два глаза. |
@@ -365,6 +396,8 @@ Romanian-Russian dictionary with examples from all lectures.
 | pepene (pl. pepeni) | дыня / арбуз | Un pepene, doi pepeni. |
 | perete (pl. pereti) | стена | Un perete, doi pereti. — Одна стена, две стены. |
 | pictor / pictorita | художник / художница | El este pictor. — Он художник. |
+| pisica (pl. pisici) | кошка | O pisica, doua pisici. — Одна кошка, две кошки. |
+| ploaie (pl. ploi) | дождь | O ploaie, doua ploi. — Один дождь, два дождя. |
 | pieptene (pl. piepteni) | расчёска | Un pieptene, doi piepteni. |
 | pin (pl. pini) | сосна | Un pin, doi pini. — Одна сосна, две сосны. |
 | pisoi (pl. pisoi) | котёнок | Un pisoi, doi pisoi. — Один котёнок, два котёнка. |
@@ -372,7 +405,9 @@ Romanian-Russian dictionary with examples from all lectures.
 | plus | плюс | Doi plus trei este egal cinci. — 2 + 3 = 5. |
 | Poftiti / Poftim | Пожалуйста (при подаче) | Trei lei. Poftiti... — Три лея. Пожалуйста... |
 | poimaine | послезавтра | Poimaine este sambata. — Послезавтра суббота. |
+| prietena (pl. prietene) | подруга | O prietena, doua prietene. — Одна подруга, две подруги. |
 | prieten (pl. prieteni) | друг | Eu am prieteni. — У меня есть друзья. |
+| prietenie (pl. prietenii) | дружба | O prietenie frumoasa. — Красивая дружба. |
 | Primavara | Весна | Primavara este frumoasa. — Весна красивая. |
 | primul / prima | первый / первая | Primul copil. — Первый ребёнок. |
 | primii / primele | первые (м. / ж.) | Primii studenti. — Первые студенты. |
@@ -390,7 +425,11 @@ Romanian-Russian dictionary with examples from all lectures.
 |--------|---------|--------|
 | rau / rea | плохой / плохая | Vremea este rea. — Погода плохая. |
 | rai / rele | плохие (м. / ж.) | Zilele sunt rele. — Дни плохие. |
+| rachiu / palinca / tuica | водка (ракия) | Un rachiu, va rog. |
 | rau | река / плохо | Raul este adanc. — Река глубокая. |
+| roman / romanca | румын / румынка | El este roman. Ea este romanca. |
+| ruda (pl. rude) | родственник | O ruda, doua rude. — Один родственник, два родственника. |
+| rus / rusoaica | русский / русская | El este rus. Ea este rusoaica. |
 | rigla (pl. rigle) | линейка | O rigla, doua rigle. |
 | rinichi (pl. rinichi) | почка | Un rinichi, doi rinichi. — Одна почка, две почки. |
 
@@ -402,7 +441,9 @@ Romanian-Russian dictionary with examples from all lectures.
 |--------|---------|--------|
 | Salut! | Привет! | Salut! Ce faci? — Привет! Как дела? |
 | Sambata | Суббота | Sambata este zi de odihna. — Суббота — выходной. |
+| saltea (pl. saltele) | матрас | O saltea, doua saltele. — Один матрас, два матраса. |
 | sanatate | здоровье | Eu am sanatate. — У меня есть здоровье. |
+| sampanie | шампанское | O sampanie, va rog. — Шампанское, пожалуйста. |
 | sanatos / sanatoasa | здоровый / здоровая | Fiti sanatos! — Будьте здоровы! |
 | sanatosi / sanatoase | здоровые (м. / ж.) | Fiti sanatosi! — Будьте здоровы! |
 | saptamana | неделя | Cate zile in saptamana? — Сколько дней в неделе? |
@@ -410,6 +451,8 @@ Romanian-Russian dictionary with examples from all lectures.
 | sare (pl. saruri) | соль | Sarea este pe masa. — Соль на столе. |
 | sase | шесть (6) | Sase luni. — Шесть месяцев. |
 | scaun (pl. scaune) | стул | Un scaun, doua scaune. — Один стул, два стула. |
+| scolarita | ученица | Ea este scolarita. — Она ученица. |
+| scrisoare (pl. scrisori) | письмо | O scrisoare, doua scrisori. — Одно письмо, два письма. |
 | sclav (pl. sclavi) | раб | Un sclav, doi sclavi. |
 | scoala | школа | Scoala este aproape. — Школа близко. |
 | scolar (pl. scolari) | ученик | Un scolar, doi scolari. |
@@ -421,6 +464,8 @@ Romanian-Russian dictionary with examples from all lectures.
 | si | и | Eu si tu. — Я и ты. |
 | Slava Domnului! | Слава Богу! | Totul este bine. Slava Domnului! |
 | soare | солнце | Soarele straluceste. — Солнце светит. |
+| strada (pl. strazi) | улица | O strada, doua strazi. — Одна улица, две улицы. |
+| suc | сок | Un suc, va rog. — Сок, пожалуйста. |
 | socru (pl. socri) | свёкор / тесть | Un socru, doi socri. |
 | sora (pl. surori) | сестра | O sora, doua surori. — Одна сестра, две сестры. |
 | sot (pl. soti) | муж | Sotul este acasa. — Муж дома. |
@@ -453,6 +498,7 @@ Romanian-Russian dictionary with examples from all lectures.
 | trei | три (3) | Trei lei. — Три лея. |
 | treizeci | тридцать (30) | Treizeci de zile. — Тридцать дней. |
 | triunghi | треугольник | Triunghi are trei laturi. — Треугольник имеет три стороны. |
+| turc / turcoaica | турок / турчанка | El este turc. Ea este turcoaica. |
 
 ---
 
@@ -462,8 +508,10 @@ Romanian-Russian dictionary with examples from all lectures.
 |--------|---------|--------|
 | ultimul / ultima | последний / последняя | Ultimul examen. — Последний экзамен. |
 | ultimii / ultimele | последние (м. / ж.) | Ultimii studenti. — Последние студенты. |
+| ucrainean / ucraineanca | украинец / украинка | El este ucrainean. Ea este ucraineanca. |
 | umezeala (pl. umezeli) | влажность | Umezeala este mare. — Влажность высокая. |
 | un / o | неопр. артикль (м. / ж.) | Un om, o femeie. — Мужчина, женщина. |
+| universitate (pl. universitati) | университет | Universitatea este mare. — Университет большой. |
 | unchi (pl. unchi) | дядя | Un unchi, doi unchi. — Один дядя, два дяди. |
 | Unde? | Где? Куда? | Unde sunteti acum? — Где Вы сейчас? |
 | unu / una | один / одна | Unu, doi, trei. — Один, два, три. |
@@ -482,15 +530,18 @@ Romanian-Russian dictionary with examples from all lectures.
 | va rog | пожалуйста (при просьбе) | O paine, va rog. — Хлеб, пожалуйста. |
 | valoare (pl. valori) | ценность | O valoare mare. — Большая ценность. |
 | vant | ветер | Vantul este puternic. — Ветер сильный. |
-| vanzator (pl. vanzatori) | продавец | Vanzatorul este amabil. — Продавец приветливый. |
+| vaca (pl. vaci) | корова | O vaca, doua vaci. — Одна корова, две коровы. |
+| vanzator / vanzatoare | продавец / продавщица | Vanzatorul este amabil. — Продавец приветливый. |
 | Vara | Лето | Vara este cald. — Летом тепло. |
-| vecin (pl. vecini) | сосед | Un vecin, doi vecini. — Один сосед, два соседа. |
+| vecin / vecina | сосед / соседка | Un vecin, doi vecini. O vecina, doua vecine. |
+| vin | вино | Un pahar de vin. — Бокал вина. |
 | verisoara (pl. verisoare) | двоюродная сестра | O verisoara, doua verisoare. |
 | verisor (pl. verisori) | двоюродный брат | Un verisor, doi verisori. |
 | viata | жизнь | Asa este viata. — Такова жизнь. |
 | viitorul / viitoarea | будущий / будущая | Viitorul examen. — Будущий экзамен. |
 | viitorii / viitoarele | будущие (м. / ж.) | Viitorii studenti. — Будущие студенты. |
 | Vineri | Пятница | Vineri este zi de lucru. — Пятница — рабочий день. |
+| vulpe (pl. vulpi) | лиса | O vulpe, doua vulpi. — Одна лиса, две лисы. |
 | voi | вы | Noi si voi. — Мы и вы. |
 | vostru / voastra | ваш / ваша | Casa voastra. — Ваш дом. |
 
