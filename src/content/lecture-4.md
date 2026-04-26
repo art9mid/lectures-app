@@ -1,4 +1,4 @@
-# LECTIA 4: EXERCITII PRACTICE
+# LECȚIA 4: EXERCIȚII PRACTICE
 
 Лекция 4 — Практические упражнения
 
@@ -8,75 +8,75 @@
 
 ### Вопросы с числами
 
-- Cate zile au ramas pana in februarie? = Сколько дней осталось до февраля?
-- Pana in februarie sunt inca 3 (trei) zile. = До февраля ещё 3 дня.
+- Câte zile au rămas până în februarie? = Сколько дней осталось до февраля?
+- Până în februarie sunt încă 3 (trei) zile. = До февраля ещё 3 дня.
 
 ### Чтение чисел: Род
 
 | M (муж.) | F (жен.) | Перевод |
 |----------|----------|---------|
-| doi | doua | два / две |
-| noua | noua | девять |
-| douazeci | douazeci | двадцать |
-| nouazeci | nouazeci | девяносто |
-| doisprezece | douasprezece | двенадцать |
+| doi | două | два / две |
+| nouă | nouă | девять |
+| douăzeci | douăzeci | двадцать |
+| nouăzeci | nouăzeci | девяносто |
+| doisprezece | douăsprezece | двенадцать |
 
-> **!** doi/doua и doisprezece/douasprezece меняются по роду. Остальные числа (кроме unu/una) -- одинаковые.
+> **!** doi/două и doisprezece/douăsprezece меняются по роду. Остальные числа (кроме unu/una) -- одинаковые.
 
 ---
 
 ## ПРЕДЛОЖЕНИЯ С ЧИСЛАМИ И ЛЮДЬМИ
 
-| Romana | Перевод |
+| Română | Перевод |
 |--------|---------|
-| Aici sunt 23 (douazeci si trei) de oameni. | Здесь 23 человека. |
+| Aici sunt 23 (douăzeci și trei) de oameni. | Здесь 23 человека. |
 | Aici sunt 14 (paisprezece) femei. | Здесь 14 женщин. |
-| Aici sunt 9 (noua) barbati. | Здесь 9 мужчин. |
+| Aici sunt 9 (nouă) bărbați. | Здесь 9 мужчин. |
 
 > **i** После чисел от 20 и выше используется предлог **de**: 23 de oameni, 100 de lei.
 > Но: 2 oameni, 14 femei (без de до 20).
 
 ---
 
-## ПРИЛАГАТЕЛЬНЫЕ: ПАТТЕРН -OS / -OASA
+## ПРИЛАГАТЕЛЬНЫЕ: ПАТТЕРН -OS / -OASĂ
 
 | M (муж.) | F (жен.) | Перевод |
 |----------|----------|---------|
-| frumos | frumoasa | красивый / красивая |
-| gustos | gustoasa | вкусный / вкусная |
-| nervos | nervoasa | нервный / нервная |
-| bucuros | bucuroasa | радостный / радостная |
-| sanatos | sanatoasa | здоровый / здоровая |
+| frumos | frumoasă | красивый / красивая |
+| gustos | gustoasă | вкусный / вкусная |
+| nervos | nervoasă | нервный / нервная |
+| bucuros | bucuroasă | радостный / радостная |
+| sănătos | sănătoasă | здоровый / здоровая |
 
-> **!** Паттерн: -os (M) --> -oasa (F). Это один из самых частых паттернов прилагательных в румынском языке.
+> **!** Паттерн: -os (M) --> -oasă (F). Это один из самых частых паттернов прилагательных в румынском языке.
 
 ---
 
-## МНОГО / МАЛО (MULT / PUTIN)
+## МНОГО / МАЛО (MULT / PUȚIN)
 
 ### Mult = много
 
 | | M ед.ч. | F ед.ч. | M мн.ч. | F мн.ч. |
 |---|---------|---------|---------|---------|
-| Много | mult | multa | multi | multe |
+| Много | mult | multă | mulți | multe |
 
-### Putin = мало
-
-| | M ед.ч. | F ед.ч. | M мн.ч. | F мн.ч. |
-|---|---------|---------|---------|---------|
-| Мало | putin | putina | putini | putine |
-
-### Cat = сколько
+### Puțin = мало
 
 | | M ед.ч. | F ед.ч. | M мн.ч. | F мн.ч. |
 |---|---------|---------|---------|---------|
-| Сколько | cat | cata | cati | cate |
+| Мало | puțin | puțină | puțini | puține |
+
+### Cât = сколько
+
+| | M ед.ч. | F ед.ч. | M мн.ч. | F мн.ч. |
+|---|---------|---------|---------|---------|
+| Сколько | cât | câtă | câți | câte |
 
 ---
 
 ## ДЕНЬГИ И ВАЛЮТЫ
 
-| Romana | Перевод |
+| Română | Перевод |
 |--------|---------|
 | Eu am 1000 (o mie) de lei. | У меня 1000 леев. |
 | Ecaterina are 3000 (trei mii) de dolari. | У Екатерины 3000 долларов. |
@@ -90,26 +90,26 @@
 
 | | M ед.ч. | F ед.ч. | M мн.ч. | F мн.ч. |
 |---|---------|---------|---------|---------|
-| Этот | acest | aceasta | acesti | aceste |
+| Этот | acest | această | acești | aceste |
 
-> **i** Acest/aceasta ставится перед существительным: acest om (этот человек), aceasta casa (этот дом).
+> **i** Acest/această ставится перед существительным: acest om (этот человек), această casă (этот дом).
 > Acesta/aceasta (с -a на конце) используется самостоятельно: acesta este bun (этот хороший).
 
 ---
 
 ## МАТЕМАТИЧЕСКИЕ ОПЕРАЦИИ
 
-| Символ | Romana | Перевод |
+| Символ | Română | Перевод |
 |--------|--------|---------|
 | + | plus | плюс |
 | - | minus | минус |
 | = | este egal | равно |
-| | in total | итого |
+| | în total | итого |
 
 Примеры:
 
 - Doi plus trei este egal cinci. (2 + 3 = 5)
-- Zece minus patru este egal sase. (10 - 4 = 6)
+- Zece minus patru este egal șase. (10 - 4 = 6)
 
 ---
 
@@ -122,23 +122,23 @@
 | Дата рождения | 15 ianuarie 1850 |
 | Дата смерти | 15 iunie 1889 |
 | Прожил | 39 лет |
-| В семье | al saptelea copil (7-й ребёнок) |
+| В семье | al șaptelea copil (7-й ребёнок) |
 
 ---
 
-## ГЛАГОЛ A SE NASTE = РОДИТЬСЯ
+## ГЛАГОЛ A SE NAȘTE = РОДИТЬСЯ
 
-| Лицо | A se naste | Перевод |
+| Лицо | A se naște | Перевод |
 |------|-----------|---------|
-| Eu | m-am nascut | Я родился / родилась |
-| Tu | te-ai nascut | Ты родился / родилась |
-| El/Ea | s-a nascut | Он родился / Она родилась |
-| Noi | ne-am nascut | Мы родились |
-| Voi | v-ati nascut | Вы родились |
-| Ei/Ele | s-au nascut | Они родились |
+| Eu | m-am născut | Я родился / родилась |
+| Tu | te-ai născut | Ты родился / родилась |
+| El/Ea | s-a născut | Он родился / Она родилась |
+| Noi | ne-am născut | Мы родились |
+| Voi | v-ați născut | Вы родились |
+| Ei/Ele | s-au născut | Они родились |
 
-> **i** Это возвратный глагол (a se naste). В прошедшем времени используется вспомогательный глагол "a avea" + nascut.
-> Пример: Mihai Eminescu s-a nascut pe 15 ianuarie 1850. = Михай Эминеску родился 15 января 1850.
+> **i** Это возвратный глагол (a se naște). В прошедшем времени используется вспомогательный глагол "a avea" + născut.
+> Пример: Mihai Eminescu s-a născut pe 15 ianuarie 1850. = Михай Эминеску родился 15 января 1850.
 
 ---
 
@@ -153,10 +153,10 @@
 | 3-й | al treilea | a treia |
 | 4-й | al patrulea | a patra |
 | 5-й | al cincilea | a cincea |
-| 6-й | al saselea | a sasea |
-| 7-й | al saptelea | a saptea |
+| 6-й | al șaselea | a șasea |
+| 7-й | al șaptelea | a șaptea |
 | 8-й | al optulea | a opta |
-| 9-й | al noualea | a noua |
+| 9-й | al nouălea | a noua |
 | 10-й | al zecelea | a zecea |
 
 ### Дальше (11-27)
@@ -164,18 +164,18 @@
 | Число | M (муж.) | F (жен.) |
 |-------|----------|----------|
 | 11-й | al unsprezecelea | a unsprezecea |
-| 12-й | al doisprezecelea | a douasprezecea |
+| 12-й | al doisprezecelea | a douăsprezecea |
 | 13-й | al treisprezecelea | a treisprezecea |
 | 14-й | al paisprezecelea | a paisprezecea |
 | 15-й | al cincisprezecelea | a cincisprezecea |
-| 16-й | al saisprezecelea | a saisprezecea |
-| 17-й | al saptesprezecelea | a saptesprezecea |
+| 16-й | al șaisprezecelea | a șaisprezecea |
+| 17-й | al șaptesprezecelea | a șaptesprezecea |
 | 18-й | al optsprezecelea | a optsprezecea |
-| 19-й | al nouasprezecelea | a nouasprezecea |
-| 20-й | al douazecelea | a douazecea |
-| 21-й | al douazeci si unulea | a douazeci si una |
-| 22-й | al douazeci si doilea | a douazeci si doua |
-| 27-й | al douazeci si saptelea | a douazeci si saptea |
+| 19-й | al nouăsprezecelea | a nouăsprezecea |
+| 20-й | al douăzecelea | a douăzecea |
+| 21-й | al douăzeci și unulea | a douăzeci și una |
+| 22-й | al douăzeci și doilea | a douăzeci și două |
+| 27-й | al douăzeci și șaptelea | a douăzeci și șaptea |
 
 > **!** Паттерн порядковых числительных:
 > - M: al + числительное + lea (al doilea, al treilea)

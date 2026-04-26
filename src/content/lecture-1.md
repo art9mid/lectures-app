@@ -1,4 +1,4 @@
-# LECTIA 1: ALFABETUL SI PRONUNTIA
+# LECȚIA 1: ALFABETUL ȘI PRONUNȚIA
 
 Лекция 1 — Алфавит и произношение
 
@@ -9,30 +9,30 @@
 | Буква | Звук | Пример |
 |-------|------|--------|
 | A | А | apa (вода) |
-| A (a) | Э | apa, mana |
-| A (a) | Ы | rau (река), maine (завтра) |
+| Ă (ă) | Э | apă, mână |
+| Â (â) | Ы | râu (река), mâine (завтра) |
 | B | Б | bine (хорошо) |
-| C | К | casa (дом) |
+| C | К | casă (дом) |
 | D | Д | da (да) |
 | E | Е | ecran, era |
 | F | Ф | frumos (красивый) |
 | G | Г | ghem (клубок) |
 | H | Х | harnic (трудолюбивый) |
-| I | И | inima (сердце) |
-| I (i) | Ы | inceput (начало) |
+| I | И | inimă (сердце) |
+| Î (î) | Ы | început (начало) |
 | J | Ж | joi (четверг) |
 | K | К | kilogram |
 | L | Л | luna (месяц) |
 | M | М | mama |
 | N | Н | noapte (ночь) |
 | O | О | om (человек) |
-| P | П | paine (хлеб) |
+| P | П | pâine (хлеб) |
 | Q | Кю | редко используется |
-| R | Р | rau (река) |
+| R | Р | râu (река) |
 | S | С | soare (солнце) |
-| S (s) | Ш | Sasa, scoala |
+| Ș (ș) | Ш | Șașa, școală |
 | T | Т | tata (папа) |
-| T (t) | Ц | multumesc (спасибо) |
+| Ț (ț) | Ц | mulțumesc (спасибо) |
 | U | У | unu (один) |
 | V | В | vineri (пятница) |
 | W | ВВ | редко |
@@ -43,18 +43,18 @@
 ### Три буквы A
 
 - **A** = А (как русское А)
-- **A (a)** = Э (среднее между А и Э)
-- **A (a)** = Ы (как русское Ы)
+- **Ă (ă)** = Э (среднее между А и Э)
+- **Â (â)** = Ы (как русское Ы)
 
 ### Две буквы I
 
 - **I** = И (как русское И)
-- **I (i)** = Ы (как русское Ы)
+- **Î (î)** = Ы (как русское Ы)
 
 > **!** Главные исключения и особенности:
-> - A (a) и I (i) звучат одинаково -- оба как Ы!
-> - S (с) и S (ш) -- это разные буквы
-> - T (т) и T (ц) -- это разные буквы
+> - Â (â) и Î (î) звучат одинаково -- оба как Ы!
+> - S и Ș (ș) -- это разные буквы
+> - T и Ț (ț) -- это разные буквы
 > - X = кс (text, taxi) или гз (examen, exemplu)
 
 ---
@@ -65,11 +65,11 @@
 
 Перед E и I буква C читается как Ч.
 
-| Romana | Перевод |
+| Română | Перевод |
 |--------|---------|
 | Ce? | Что? |
 | Cine? | Кто? |
-| cerneala | чернила |
+| cerneală | чернила |
 | cerc | круг |
 | accent | акцент |
 | concert | концерт |
@@ -82,7 +82,7 @@
 
 Добавляем H, чтобы C читалась как К перед E и I.
 
-| Romana | Перевод |
+| Română | Перевод |
 |--------|---------|
 | ureche / urechi | ухо / уши |
 | cheie | ключ |
@@ -97,10 +97,10 @@
 
 Перед E и I буква G читается как ДЖ.
 
-| Romana | Перевод |
+| Română | Перевод |
 |--------|---------|
 | ger | мороз |
-| girafa | жираф |
+| girafă | жираф |
 | algebra | алгебра |
 | geometrie | геометрия |
 | Germania | Германия |
@@ -111,11 +111,11 @@
 
 Добавляем H, чтобы G читалась как Г перед E и I.
 
-| Romana | Перевод |
+| Română | Перевод |
 |--------|---------|
 | Gheorghe | Георге (имя) |
-| gheata | лёд |
-| inghetata | мороженое |
+| gheață | лёд |
+| înghețată | мороженое |
 | ghid | гид |
 | ghilimele „ " | кавычки |
 | ghicitoare | загадка |
@@ -131,9 +131,9 @@
 
 ### X = КС или ГЗ
 
-| Romana | Перевод |
+| Română | Перевод |
 |--------|---------|
-| exercitiu | упражнение |
+| exercițiu | упражнение |
 | examen | экзамен |
 | text | текст |
 | exact | точно |
@@ -144,43 +144,43 @@
 
 ---
 
-## ВОПРОСЫ (INTREBARI)
+## ВОПРОСЫ (ÎNTREBĂRI)
 
 | Вопрос | Перевод |
 |--------|---------|
 | Ce? | Что? Какой? |
 | Cine? | Кто? |
-| Cand? | Когда? |
+| Când? | Когда? |
 | Unde? | Где? Куда? |
 | De unde? | Откуда? |
 | Cum? | Как? Какой? |
 | Care? | Какой? Какая? Какие? |
-| Cat? Cati? Cata? Cate? | Сколько? |
+| Cât? Câți? Câtă? Câte? | Сколько? |
 | Cui? | Кому? |
 
-> **i** Scuza-ma = Прости меня. Scuzati-ma = Простите меня. Puteti repeta? = Можете повторить?
+> **i** Scuză-mă = Прости меня. Scuzați-mă = Простите меня. Puteți repeta? = Можете повторить?
 
 ---
 
-## ДНИ НЕДЕЛИ (ZILELE SAPTAMANII)
+## ДНИ НЕДЕЛИ (ZILELE SĂPTĂMÂNII)
 
-| Romana | Перевод |
+| Română | Перевод |
 |--------|---------|
 | Luni | Понедельник |
-| Marti | Вторник |
+| Marți | Вторник |
 | Miercuri | Среда |
 | Joi | Четверг |
 | Vineri | Пятница |
-| Sambata | Суббота |
-| Duminica | Воскресенье |
+| Sâmbătă | Суббота |
+| Duminică | Воскресенье |
 
-> **i** Ce zi este astazi? = Какой сегодня день?
+> **i** Ce zi este astăzi? = Какой сегодня день?
 
 ---
 
 ## МЕСЯЦЫ (LUNILE ANULUI)
 
-| Romana | Произношение | Перевод |
+| Română | Произношение | Перевод |
 |--------|-------------|---------|
 | Ianuarie | ia-nu-a-ri-e | Январь |
 | Februarie | fe-bru-a-ri-e | Февраль |
@@ -199,24 +199,24 @@
 
 ## СЛОВА ВРЕМЕНИ (CUVINTE DE TIMP)
 
-| Romana | Перевод |
+| Română | Перевод |
 |--------|---------|
-| astazi (azi) | сегодня |
+| astăzi (azi) | сегодня |
 | ieri | вчера |
-| alaltaieri | позавчера |
-| maine | завтра |
-| poimaine | послезавтра |
+| alaltăieri | позавчера |
+| mâine | завтра |
+| poimâine | послезавтра |
 | zi / zile | день / дни |
 | zile de lucru | рабочие дни |
-| zile de odihna | выходные дни |
-| zile de sarbatoare | праздничные дни |
-| ziua de nastere | день рождения |
+| zile de odihnă | выходные дни |
+| zile de sărbătoare | праздничные дни |
+| ziua de naștere | день рождения |
 
 ---
 
 ## МЕСТОИМЕНИЯ (PRONUMELE)
 
-| Romana | Перевод |
+| Română | Перевод |
 |--------|---------|
 | Eu | Я |
 | Tu | Ты |
@@ -226,7 +226,7 @@
 | Voi | Вы |
 | Ei | Они (м.р.) |
 | Ele | Они (ж.р.) |
-| Dumneavoastra | Вы (вежливое) |
+| Dumneavoastră | Вы (вежливое) |
 
 ---
 
@@ -237,13 +237,13 @@
 | Лицо | A fi | Перевод |
 |------|------|---------|
 | Eu | sunt | Я есть |
-| Tu | esti | Ты есть |
+| Tu | ești | Ты есть |
 | El/Ea | este (e, -i) | Он/она есть |
 | Noi | suntem | Мы есть |
-| Voi | sunteti | Вы есть |
+| Voi | sunteți | Вы есть |
 | Ei/Ele | sunt | Они есть |
 
-> **i** Краткие формы: este --> e --> -i (Mama-i acasa = Мама дома)
+> **i** Краткие формы: este --> e --> -i (Mama-i acasă = Мама дома)
 > **i** Отрицание: nu sunt --> nu-s (Ei nu-s aici = Их нет здесь)
 
 ### A AVEA = ИМЕТЬ
@@ -254,21 +254,21 @@
 | Tu | ai | nu ai / n-ai |
 | El/Ea | are | nu are / n-are |
 | Noi | avem | nu avem / n-avem |
-| Voi | aveti | nu aveti / n-aveti |
+| Voi | aveți | nu aveți / n-aveți |
 | Ei/Ele | au | nu au / n-au |
 
 Примеры с "Eu am...":
 
-| Romana | Перевод |
+| Română | Перевод |
 |--------|---------|
-| Eu am parinti. | У меня есть родители. |
+| Eu am părinți. | У меня есть родители. |
 | Eu am copii. | У меня есть дети. |
 | Eu am prieteni. | У меня есть друзья. |
-| Eu am sanatate. | У меня есть здоровье. |
+| Eu am sănătate. | У меня есть здоровье. |
 | Eu am bucurii. | У меня есть радости. |
 | Eu am bani. | У меня есть деньги. |
-| Eu am casa. | У меня есть дом. |
-| Eu am masina. | У меня есть машина. |
+| Eu am casă. | У меня есть дом. |
+| Eu am mașină. | У меня есть машина. |
 | Eu am totul. | У меня есть всё. |
 
 ### A FACE = ДЕЛАТЬ
@@ -279,10 +279,10 @@
 | Tu | faci | Ты делаешь |
 | El/Ea | face | Он/она делает |
 | Noi | facem | Мы делаем |
-| Voi | faceti | Вы делаете |
+| Voi | faceți | Вы делаете |
 | Ei/Ele | fac | Они делают |
 
-> **i** Ce faci? = Как дела? Multumesc, fac bine. = Спасибо, хорошо.
+> **i** Ce faci? = Как дела? Mulțumesc, fac bine. = Спасибо, хорошо.
 
 ---
 
@@ -290,50 +290,50 @@
 
 | M (муж.) | F (жен.) | Перевод |
 |----------|----------|---------|
-| student | studenta | студент |
-| elev | eleva | ученик |
+| student | studentă | студент |
+| elev | elevă | ученик |
 | muncitor | muncitoare | работник |
-| profesor | profesoara | профессор / учитель |
-| artist | artista | артист |
-| pictor | pictorita | художник |
-| bucatar | bucatareasa | повар |
-| contabil | contabila | бухгалтер |
+| profesor | profesoară | профессор / учитель |
+| artist | artistă | артист |
+| pictor | pictoriță | художник |
+| bucătar | bucătăreasă | повар |
+| contabil | contabilă | бухгалтер |
 | medic | medic | врач |
 | inginer | inginer | инженер |
 
 > **!** Прилагательные по роду:
-> - Мужской: harnic, frumos, atent, staruitor
-> - Женский: harnica, frumoasa, atenta, staruitoare
+> - Мужской: harnic, frumos, atent, stăruitor
+> - Женский: harnică, frumoasă, atentă, stăruitoare
 
 ---
 
 ## АНТОНИМЫ (ANTONIME)
 
-| Romana | ↔ | Противоположное |
+| Română | ↔ | Противоположное |
 |--------|---|----------------|
 | aici (здесь) | ↔ | acolo (там) |
 | aproape (близко) | ↔ | departe (далеко) |
 | acum (сейчас) | ↔ | atunci (тогда) |
 | sus (вверх) | ↔ | jos (вниз) |
-| la stanga (налево) | ↔ | la dreapta (направо) |
+| la stânga (налево) | ↔ | la dreapta (направо) |
 | scurt (короткий) | ↔ | lung (длинный) |
 | mic (маленький) | ↔ | mare (большой) |
-| ingust (узкий) | ↔ | larg (широкий) |
-| drept (прямой) | ↔ | stramb (кривой) |
+| îngust (узкий) | ↔ | larg (широкий) |
+| drept (прямой) | ↔ | strâmb (кривой) |
 
 ---
 
 ## СЕМЬЯ (FAMILIA)
 
-| Romana | Мн. число | Перевод |
+| Română | Мн. число | Перевод |
 |--------|-----------|---------|
 | fiu | fii | сын / сыновья |
-| fiica | fiice | дочь / дочери |
-| frate | frati | брат / братья |
-| sora | surori | сестра / сестры |
+| fiică | fiice | дочь / дочери |
+| frate | frați | брат / братья |
+| soră | surori | сестра / сестры |
 | bunic | bunici | дедушка |
-| bunica | bunici | бабушка |
-| verisor | verisori | двоюродный брат |
-| verisoara | verisoare | двоюродная сестра |
-| nepot | nepoti | внук / племянник |
-| nepoata | nepoate | внучка / племянница |
+| bunică | bunici | бабушка |
+| verișor | verișori | двоюродный брат |
+| verișoară | verișoare | двоюродная сестра |
+| nepot | nepoți | внук / племянник |
+| nepoată | nepoate | внучка / племянница |

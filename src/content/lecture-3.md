@@ -1,4 +1,4 @@
-# LECTIA 3: NUMERALELE
+# LECȚIA 3: NUMERALELE
 
 Лекция 3 — Числа
 
@@ -6,90 +6,90 @@
 
 ## ЧИСЛА 0-20
 
-| Число | Romana | Перевод |
+| Число | Română | Перевод |
 |-------|--------|---------|
 | 0 | zero | ноль |
 | 1 | unu (M) / una (F) | один / одна |
-| 2 | doi (M) / doua (F) | два / две |
+| 2 | doi (M) / două (F) | два / две |
 | 3 | trei | три |
 | 4 | patru | четыре |
 | 5 | cinci | пять |
-| 6 | sase | шесть |
-| 7 | sapte | семь |
+| 6 | șase | шесть |
+| 7 | șapte | семь |
 | 8 | opt | восемь |
-| 9 | noua | девять |
+| 9 | nouă | девять |
 | 10 | zece | десять |
 | 11 | unsprezece | одиннадцать |
-| 12 | doisprezece (M) / douasprezece (F) | двенадцать |
+| 12 | doisprezece (M) / douăsprezece (F) | двенадцать |
 | 13 | treisprezece | тринадцать |
 | 14 | paisprezece | четырнадцать |
 | 15 | cincisprezece | пятнадцать |
-| 16 | saisprezece | шестнадцать |
-| 17 | saptesprezece | семнадцать |
+| 16 | șaisprezece | шестнадцать |
+| 17 | șaptesprezece | семнадцать |
 | 18 | optsprezece | восемнадцать |
-| 19 | nouasprezece | девятнадцать |
-| 20 | douazeci | двадцать |
+| 19 | nouăsprezece | девятнадцать |
+| 20 | douăzeci | двадцать |
 
 > **!** Числа 11-19 = цифра + sprezece (надцать): un + sprezece = unsprezece
-> **!** Род важен! 1 и 2 меняются: unu/una, doi/doua, doisprezece/douasprezece
+> **!** Род важен! 1 и 2 меняются: unu/una, doi/două, doisprezece/douăsprezece
 
 ---
 
 ## ЧИСЛА 21-100: ДЕСЯТКИ
 
-| Число | Romana |
+| Число | Română |
 |-------|--------|
-| 21 | douazeci si unu (M) / douazeci si una (F) |
-| 22 | douazeci si doi (M) / douazeci si doua (F) |
-| 23 | douazeci si trei |
-| 24 | douazeci si patru |
-| 25 | douazeci si cinci |
-| 26 | douazeci si sase |
-| 27 | douazeci si sapte |
-| 28 | douazeci si opt |
-| 29 | douazeci si noua |
+| 21 | douăzeci și unu (M) / douăzeci și una (F) |
+| 22 | douăzeci și doi (M) / douăzeci și două (F) |
+| 23 | douăzeci și trei |
+| 24 | douăzeci și patru |
+| 25 | douăzeci și cinci |
+| 26 | douăzeci și șase |
+| 27 | douăzeci și șapte |
+| 28 | douăzeci și opt |
+| 29 | douăzeci și nouă |
 | 30 | treizeci |
 | 40 | patruzeci |
 | 50 | cincizeci |
-| 60 | saizeci |
-| 70 | saptezeci |
+| 60 | șaizeci |
+| 70 | șaptezeci |
 | 80 | optzeci |
-| 90 | nouazeci |
-| 100 | o suta |
+| 90 | nouăzeci |
+| 100 | o sută |
 
 > **!** Десятки = цифра + zeci: trei+zeci = 30, patru+zeci = 40
-> Составные: десяток + si + единица: douazeci si cinci = 25
+> Составные: десяток + și + единица: douăzeci și cinci = 25
 
 ---
 
 ## СОТНИ И ТЫСЯЧИ
 
-| Число | Romana |
+| Число | Română |
 |-------|--------|
-| 100 | o suta |
-| 200 | doua sute |
+| 100 | o sută |
+| 200 | două sute |
 | 300 | trei sute |
 | 400 | patru sute |
 | 500 | cinci sute |
-| 600 | sase sute |
-| 700 | sapte sute |
+| 600 | șase sute |
+| 700 | șapte sute |
 | 800 | opt sute |
-| 900 | noua sute |
+| 900 | nouă sute |
 | 1 000 | o mie |
-| 2 000 | doua mii |
+| 2 000 | două mii |
 
-> **i** 100 = o suta, но 200+ = X sute (мн.ч.). 1000 = o mie, но 2000+ = X mii (мн.ч.)
+> **i** 100 = o sută, но 200+ = X sute (мн.ч.). 1000 = o mie, но 2000+ = X mii (мн.ч.)
 
 ---
 
 ## МИЛЛИОНЫ И МИЛЛИАРДЫ
 
-| Число | Romana |
+| Число | Română |
 |-------|--------|
 | 1 000 000 | un milion |
-| 2 000 000 | doua milioane |
+| 2 000 000 | două milioane |
 | 1 000 000 000 | un miliard |
-| 2 000 000 000 | doua miliarde |
+| 2 000 000 000 | două miliarde |
 
 > **i** milion --> milioane (мн.ч.), miliard --> miliarde (мн.ч.)
 
@@ -97,62 +97,62 @@
 
 ## ПРИМЕРЫ СОСТАВНЫХ ЧИСЕЛ
 
-| Число | Romana |
+| Число | Română |
 |-------|--------|
 | 14 | paisprezece |
-| 79 | saptezeci si noua |
-| 83 | optzeci si trei |
-| 444 | patru sute patruzeci si patru |
-| 652 | sase sute cincizeci si doi |
+| 79 | șaptezeci și nouă |
+| 83 | optzeci și trei |
+| 444 | patru sute patruzeci și patru |
+| 652 | șase sute cincizeci și doi |
 | 803 | opt sute trei |
-| 999 | noua sute nouazeci si noua |
-| 1 009 | o mie noua |
-| 1 763 | o mie sapte sute saizeci si trei |
-| 9 000 | noua mii |
+| 999 | nouă sute nouăzeci și nouă |
+| 1 009 | o mie nouă |
+| 1 763 | o mie șapte sute șaizeci și trei |
+| 9 000 | nouă mii |
 
 ### Года (Anul)
 
-| Год | Romana |
+| Год | Română |
 |-----|--------|
-| 1989 | o mie noua sute optzeci si noua |
-| 2024 | doua mii douazeci si patru |
+| 1989 | o mie nouă sute optzeci și nouă |
+| 2024 | două mii douăzeci și patru |
 
 ---
 
 ## ВОЗРАСТ И ДЕНЬ РОЖДЕНИЯ
 
-| Romana | Перевод |
+| Română | Перевод |
 |--------|---------|
-| Cati ani aveti? | Сколько вам лет? |
-| Cati ani ai? | Сколько тебе лет? |
+| Câți ani aveți? | Сколько вам лет? |
+| Câți ani ai? | Сколько тебе лет? |
 | Am ... ani. | Мне ... лет. |
-| Am treizeci si trei de ani. | Мне 33 года. |
-| Cand este Ziua ta de nastere? | Когда твой день рождения? |
-| Cand v-ati nascut? | Когда вы родились? |
+| Am treizeci și trei de ani. | Мне 33 года. |
+| Când este Ziua ta de naștere? | Когда твой день рождения? |
+| Când v-ați născut? | Когда вы родились? |
 
 ---
 
-## ПОЖЕЛАНИЯ ЗДОРОВЬЯ (SANATATE)
+## ПОЖЕЛАНИЯ ЗДОРОВЬЯ (SĂNĂTATE)
 
-| Romana | Кому? |
+| Română | Кому? |
 |--------|-------|
-| Fiti sanatos! | муж. ед.ч. |
-| Fiti sanatoasa! | жен. ед.ч. |
-| Fiti sanatosi! | муж. мн.ч. |
-| Fiti sanatoase! | жен. мн.ч. |
-| Multa sanatate si pace! | Много здоровья и мира! |
+| Fiți sănătos! | муж. ед.ч. |
+| Fiți sănătoasă! | жен. ед.ч. |
+| Fiți sănătoși! | муж. мн.ч. |
+| Fiți sănătoase! | жен. мн.ч. |
+| Multă sănătate și pace! | Много здоровья и мира! |
 
-> **!** Род в пожеланиях: sanatos (M ед.) --> sanatoasa (F ед.) --> sanatosi (M мн.) --> sanatoase (F мн.)
+> **!** Род в пожеланиях: sănătos (M ед.) --> sănătoasă (F ед.) --> sănătoși (M мн.) --> sănătoase (F мн.)
 
 ---
 
 ## ВРЕМЕНА ГОДА (ANOTIMPURILE)
 
-Cate anotimpuri sunt? = Сколько времён года? — 4
+Câte anotimpuri sunt? = Сколько времён года? — 4
 
-| Romana | Перевод |
+| Română | Перевод |
 |--------|---------|
-| Primavara | Весна |
+| Primăvara | Весна |
 | Vara | Лето |
 | Toamna | Осень |
 | Iarna | Зима |
@@ -163,55 +163,55 @@ Cate anotimpuri sunt? = Сколько времён года? — 4
 
 | Вопрос | Ответ |
 |--------|-------|
-| Cate luni in an? | 12 (douasprezece) |
-| Cate zile in saptamana? | 7 (sapte) |
-| Cate zile in an? | 365 / 366 |
-| Cate zile in luna? | 28 / 29 / 30 / 31 |
+| Câte luni în an? | 12 (douăsprezece) |
+| Câte zile în săptămână? | 7 (șapte) |
+| Câte zile în an? | 365 / 366 |
+| Câte zile în lună? | 28 / 29 / 30 / 31 |
 
 ---
 
 ## НОВЫЕ СЛОВА (CUVINTE NOI)
 
-| Romana | Перевод |
+| Română | Перевод |
 |--------|---------|
-| Mana / Maini | Рука / Руки |
-| Maine | Завтра |
-| Poimaine | Послезавтра |
+| Mână / Mâini | Рука / Руки |
+| Mâine | Завтра |
+| Poimâine | Послезавтра |
 | Cina | Ужин |
 | Cine? | Кто? |
 
-> **i** Mana (рука) -- Maine (завтра) -- Maini (руки) -- не путайте!
+> **i** Mână (рука) -- Mâine (завтра) -- Mâini (руки) -- не путайте!
 
 ---
 
 ## АНТОНИМЫ (ANTONIME)
 
-| Romana | ↔ | Противоположное |
+| Română | ↔ | Противоположное |
 |--------|---|----------------|
 | aici (здесь) | ↔ | acolo (там) |
 | aproape (близко) | ↔ | departe (далеко) |
 | acum (сейчас) | ↔ | atunci (тогда) |
 | sus (вверх) | ↔ | jos (вниз) |
-| la stanga (налево) | ↔ | la dreapta (направо) |
+| la stânga (налево) | ↔ | la dreapta (направо) |
 | scurt (короткий) | ↔ | lung (длинный) |
 | mic (маленький) | ↔ | mare (большой) |
-| ingust (узкий) | ↔ | larg (широкий) |
-| drept (прямой) | ↔ | stramb (кривой) |
-| inainte (вперёд) | ↔ | inapoi (назад) |
+| îngust (узкий) | ↔ | larg (широкий) |
+| drept (прямой) | ↔ | strâmb (кривой) |
+| înainte (вперёд) | ↔ | înapoi (назад) |
 
 ---
 
 ## МЕСТОИМЕНИЯ: ПАРЫ
 
-| Romana | Перевод |
+| Română | Перевод |
 |--------|---------|
-| Eu si tu | Я и ты |
-| Noi si voi | Мы и вы |
-| El si ea | Он и она |
-| Ei si ele | Они (M) и они (F) |
-| Dumneavoastra | Вы (вежливое, ед. и мн.) |
+| Eu și tu | Я и ты |
+| Noi și voi | Мы и вы |
+| El și ea | Он и она |
+| Ei și ele | Они (M) и они (F) |
+| Dumneavoastră | Вы (вежливое, ед. и мн.) |
 
-> **i** Dumneavoastra используется и для одного человека (уважительно), и для группы.
+> **i** Dumneavoastră используется и для одного человека (уважительно), и для группы.
 
 ---
 
@@ -228,9 +228,9 @@ Cate anotimpuri sunt? = Сколько времён года? — 4
 
 | | M ед.ч. | F ед.ч. | M мн.ч. | F мн.ч. |
 |---|---------|---------|---------|---------|
-| Весь | tot | toata | toti | toate |
+| Весь | tot | toată | toți | toate |
 
-> **i** Totul = всё (everything). Toti = все (everybody, м.р.). Toate = все (everybody, ж.р.)
+> **i** Totul = всё (everything). Toți = все (everybody, м.р.). Toate = все (everybody, ж.р.)
 
 ---
 
@@ -238,16 +238,16 @@ Cate anotimpuri sunt? = Сколько времён года? — 4
 
 | | M ед.ч. | F ед.ч. | M мн.ч. | F мн.ч. |
 |---|---------|---------|---------|---------|
-| Этот | acesta | aceasta | acestia | acestea |
+| Этот | acesta | aceasta | aceștia | acestea |
 
 ---
 
-## ПРИЛАГАТЕЛЬНЫЕ: BUN / RAU
+## ПРИЛАГАТЕЛЬНЫЕ: BUN / RĂU
 
 | | M ед.ч. | F ед.ч. | M мн.ч. | F мн.ч. |
 |---|---------|---------|---------|---------|
-| Хороший | bun | buna | buni | bune |
-| Плохой | rau | rea | rai | rele |
+| Хороший | bun | bună | buni | bune |
+| Плохой | rău | rea | răi | rele |
 
 > **!** Паттерн: все прилагательные, порядковые и указательные имеют 4 формы -- M ед., F ед., M мн., F мн.
-> Пример: bun --> buna --> buni --> bune
+> Пример: bun --> bună --> buni --> bune

@@ -1,62 +1,62 @@
-# LECTIA 2: COMUNICARE SI SALUTARI
+# LECȚIA 2: COMUNICARE ȘI SALUTĂRI
 
 Лекция 2 — Общение и приветствия
 
 ---
 
-## ПРИВЕТСТВИЯ (SALUTARI)
+## ПРИВЕТСТВИЯ (SALUTĂRI)
 
 | Когда? | Что говорим? |
 |--------|-------------|
-| Утром (dimineata) | Buna dimineata! — Доброе утро! |
-| Днём (ziua) | Buna ziua! — Добрый день! |
-| Вечером (seara) | Buna seara! — Добрый вечер! |
-| Перед сном (la culcare) | Noapte buna! — Спокойной ночи! |
+| Утром (dimineața) | Bună dimineața! — Доброе утро! |
+| Днём (ziua) | Bună ziua! — Добрый день! |
+| Вечером (seara) | Bună seara! — Добрый вечер! |
+| Перед сном (la culcare) | Noapte bună! — Спокойной ночи! |
 | При уходе (la plecare) | La revedere! — До свидания! |
-| При уходе | Pe curand! — До скорого! |
-| До завтра | Pe maine! — До завтра! |
+| При уходе | Pe curând! — До скорого! |
+| До завтра | Pe mâine! — До завтра! |
 | Неформально | Salut! Noroc! — Привет! |
 
-> **i** Обратите внимание на порядок слов: Buna dimineata (Доброе утро), но Noapte buna (Спокойной ночи) -- прилагательное меняет место.
+> **i** Обратите внимание на порядок слов: Bună dimineața (Доброе утро), но Noapte bună (Спокойной ночи) -- прилагательное меняет место.
 
 ---
 
 ## ВЕЖЛИВЫЕ ПРОСЬБЫ (CUM CEREM CEVA)
 
-| Romana | Перевод |
+| Română | Перевод |
 |--------|---------|
-| O paine, va rog. | Хлеб, пожалуйста. |
-| Un bilet, va rog. | Билет, пожалуйста. |
-| Dati-mi, va rog. | Дайте мне, пожалуйста. |
-| Ascultati-ma, va rog. | Послушайте, пожалуйста. |
-| Poftiti / Poftim | Пожалуйста (вот, возьмите) |
+| O pâine, vă rog. | Хлеб, пожалуйста. |
+| Un bilet, vă rog. | Билет, пожалуйста. |
+| Dați-mi, vă rog. | Дайте мне, пожалуйста. |
+| Ascultați-mă, vă rog. | Послушайте, пожалуйста. |
+| Poftiți / Poftim | Пожалуйста (вот, возьмите) |
 
-> **i** Va rog = пожалуйста (при просьбе). Poftiti/Poftim = пожалуйста (при подаче чего-то).
+> **i** Vă rog = пожалуйста (при просьбе). Poftiți/Poftim = пожалуйста (при подаче чего-то).
 
 ---
 
-## КАК ПОБЛАГОДАРИТЬ (A MULTUMI)
+## КАК ПОБЛАГОДАРИТЬ (A MULȚUMI)
 
-Multumesc! = Спасибо! Cu mare placere! = С большим удовольствием!
+Mulțumesc! = Спасибо! Cu mare plăcere! = С большим удовольствием!
 
-### Спряжение глагола A multumi
+### Спряжение глагола A mulțumi
 
-| Лицо | A multumi | Перевод |
+| Лицо | A mulțumi | Перевод |
 |------|-----------|---------|
-| Eu | multumesc | Я благодарю |
-| Tu | multumesti | Ты благодаришь |
-| El/Ea | multumeste | Он/она благодарит |
-| Noi | multumim | Мы благодарим |
-| Voi | multumiti | Вы благодарите |
-| Ei/Ele | multumesc | Они благодарят |
+| Eu | mulțumesc | Я благодарю |
+| Tu | mulțumești | Ты благодаришь |
+| El/Ea | mulțumește | Он/она благодарит |
+| Noi | mulțumim | Мы благодарим |
+| Voi | mulțumiți | Вы благодарите |
+| Ei/Ele | mulțumesc | Они благодарят |
 
-### Multumesc pentru... = Спасибо за...
+### Mulțumesc pentru... = Спасибо за...
 
-| Romana | Перевод |
+| Română | Перевод |
 |--------|---------|
-| lectie | урок |
-| atentie | внимание |
-| grija | заботу |
+| lecție | урок |
+| atenție | внимание |
+| grijă | заботу |
 | ajutor | помощь |
 | bani | деньги |
 | totul | всё |
@@ -65,86 +65,86 @@ Multumesc! = Спасибо! Cu mare placere! = С большим удоволь
 
 ## ДИАЛОГ В МАГАЗИНЕ
 
-- Buna ziua!
-- Buna ziua. Ce doriti? *(Что желаете?)*
-- O cafea. Cat costa? *(Сколько стоит?)*
-- Trei lei. Poftiti...
-- Mai doriti ceva? *(Ещё желаете что-то?)*
-- Da, o franzela. Cat costa?
-- Noua lei. Poftiti...
-- Multumesc!
-- Cu mare placere! *(С большим удовольствием!)*
+- Bună ziua!
+- Bună ziua. Ce doriți? *(Что желаете?)*
+- O cafea. Cât costă? *(Сколько стоит?)*
+- Trei lei. Poftiți...
+- Mai doriți ceva? *(Ещё желаете что-то?)*
+- Da, o franzelă. Cât costă?
+- Nouă lei. Poftiți...
+- Mulțumesc!
+- Cu mare plăcere! *(С большим удовольствием!)*
 
 ---
 
 ## СЛОВАРЬ A-Z (CUVINTE NOI)
 
-| Romana (sg. — pl.) | Перевод |
+| Română (sg. — pl.) | Перевод |
 |---------------------|---------|
-| apa — ape | вода |
+| apă — ape | вода |
 | aer | воздух |
-| aripa — aripi | крыло |
-| banca — banci | банк / парта / лавочка |
-| cuvant — cuvinte | слово |
-| cetatenie — cetateniile | гражданство |
-| dulceata — dulceturi | варенье / джем |
+| aripă — aripi | крыло |
+| bancă — bănci | банк / парта / лавочка |
+| cuvânt — cuvinte | слово |
+| cetățenie — cetățeniile | гражданство |
+| dulceață — dulcețuri | варенье / джем |
 | eveniment — evenimente | событие |
 | floare — flori | цветок |
-| gradina — gradini | сад / огород |
-| geanta — genti | сумка |
-| hartie — hartii | бумага |
-| harta — harti | карта |
-| carte — carti | книга |
-| icoana — icoane | иконка |
-| inceput — inceputuri | начало |
-| jucarie — jucarii | игрушка |
+| grădină — grădini | сад / огород |
+| geantă — genți | сумка |
+| hârtie — hârtii | бумага |
+| hartă — hărți | карта |
+| carte — cărți | книга |
+| icoană — icoane | иконка |
+| început — începuturi | начало |
+| jucărie — jucării | игрушка |
 | kilogram — kilograme | килограмм |
-| lingura — linguri | ложка |
-| murdarie — murdarii | грязь |
-| noapte — nopti | ночь |
+| lingură — linguri | ложка |
+| murdărie — murdării | грязь |
+| noapte — nopți | ночь |
 | oprire — opriri | остановка |
-| planta — plante | растение |
-| rigla — rigle | линейка |
-| sare — saruri | соль |
-| scolar — scolari | ученик |
-| tanar — tineri | молодой / молодёжь |
-| tara — tari | страна |
-| umezeala — umezeli | влажность |
+| plantă — plante | растение |
+| riglă — rigle | линейка |
+| sare — săruri | соль |
+| școlar — școlari | ученик |
+| tânăr — tineri | молодой / молодёжь |
+| țară — țări | страна |
+| umezeală — umezeli | влажность |
 | valoare — valori | ценность |
-| zapada — zapezi | снег |
+| zăpadă — zăpezi | снег |
 
 ---
 
 ## СЕМЬЯ (FAMILIA)
 
-| Romana | Мн. число | Перевод |
+| Română | Мн. число | Перевод |
 |--------|-----------|---------|
 | fiu | fii | сын / сыновья |
-| fiica | fiice | дочь / дочери |
-| frate | frati | брат / братья |
-| sora | surori | сестра / сестры |
+| fiică | fiice | дочь / дочери |
+| frate | frați | брат / братья |
+| soră | surori | сестра / сестры |
 | bunic | bunici | дедушка |
-| bunica | bunici | бабушка |
-| verisor | verisori | двоюродный брат |
-| verisoara | verisoare | двоюродная сестра |
-| nepot | nepoti | внук / племянник |
-| nepoata | nepoate | внучка / племянница |
-| sot | soti | муж |
-| sotie | sotii | жена |
-| tata | - | папа |
+| bunică | bunici | бабушка |
+| verișor | verișori | двоюродный брат |
+| verișoară | verișoare | двоюродная сестра |
+| nepot | nepoți | внук / племянник |
+| nepoată | nepoate | внучка / племянница |
+| soț | soți | муж |
+| soție | soții | жена |
+| tată | - | папа |
 | mama | - | мама |
-| parinti | - | родители |
+| părinți | - | родители |
 | copil | copii | ребёнок / дети |
-| barbat / domn | - | мужчина / господин |
-| femeie / doamna | - | женщина / госпожа |
+| bărbat / domn | - | мужчина / господин |
+| femeie / doamnă | - | женщина / госпожа |
 
 ---
 
 ## СТИХОТВОРЕНИЕ: MAMA (Grigore Vieru)
 
-> Mama -- cuvantul cel mai frumos.
-> Mama -- izvorul care ne da viata.
-> Mama -- lumina ce ne lumineaza calea.
-> Mama -- dragostea fara de sfarsit.
+> Mama -- cuvântul cel mai frumos.
+> Mama -- izvorul care ne dă viața.
+> Mama -- lumina ce ne luminează calea.
+> Mama -- dragostea fără de sfârșit.
 
 > **i** Grigore Vieru (1935-2009) -- великий молдавский и румынский поэт, известный стихами о маме и родном языке.

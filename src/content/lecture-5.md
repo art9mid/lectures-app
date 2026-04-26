@@ -1,4 +1,4 @@
-# LECTIA 5: GENUL SUBSTANTIVELOR
+# LECȚIA 5: GENUL SUBSTANTIVELOR
 
 Лекция 5 — Род существительных
 
@@ -6,13 +6,13 @@
 
 ## ТРИ РОДА В РУМЫНСКОМ ЯЗЫКЕ
 
-| Gen (Род) | Articol nehotarat (Неопр. арт.) | Singular | Plural |
+| Gen (Род) | Articol nehotărât (Неопр. арт.) | Singular | Plural |
 |-----------|--------------------------------|----------|--------|
 | MASCULIN (мужской) | un | un om | doi oameni |
-| FEMININ (женский) | o | o femeie | doua femei |
-| NEUTRU (средний) | un | un scaun | doua scaune |
+| FEMININ (женский) | o | o femeie | două femei |
+| NEUTRU (средний) | un | un scaun | două scaune |
 
-> **!** Нейтральный род (NEUTRU) ведет себя как мужской в единственном числе (un) и как женский во множественном (doua). Это ключевое правило: N = M sg. + F pl.
+> **!** Нейтральный род (NEUTRU) ведет себя как мужской в единственном числе (un) и как женский во множественном (două). Это ключевое правило: N = M sg. + F pl.
 
 ---
 
@@ -20,17 +20,17 @@
 
 ### 1. Согласная (одушевленные и неодушевленные)
 
-| Romana | Перевод |
+| Română | Перевод |
 |--------|---------|
 | copil | ребёнок |
 | vecin | сосед |
 | nepot | внук |
 | copac | дерево |
-| mar (pl. meri) | яблоня |
+| măr (pl. meri) | яблоня |
 
 ### 2. Окончание -e
 
-| Romana | Перевод |
+| Română | Перевод |
 |--------|---------|
 | frate | брат |
 | dinte | зуб |
@@ -40,21 +40,21 @@
 | pepene | дыня / арбуз |
 | pieptene | расчёска |
 | oaspete | гость |
-| caine | собака |
+| câine | собака |
 
 ### 3. Окончание -a
 
-| Romana | Plural | Перевод |
+| Română | Plural | Перевод |
 |--------|--------|---------|
-| tata | tati | отец |
+| tată | tați | отец |
 
 ### 4. Окончание -u
 
-| Romana | Plural | Перевод |
+| Română | Plural | Перевод |
 |--------|--------|---------|
-| ministru | ministri | министр |
+| ministru | miniștri | министр |
 | fiu | fii | сын |
-| cumatru | cumatri | кум |
+| cumătru | cumătri | кум |
 | socru | socri | свёкор / тесть |
 | tigru | tigri | тигр |
 | leu | lei | лев / лей |
@@ -62,7 +62,7 @@
 
 ### 5. Окончание -i (неизменяемые во мн. ч.)
 
-| Romana | Plural | Перевод |
+| Română | Plural | Перевод |
 |--------|--------|---------|
 | ochi | ochi | глаз |
 | pui | pui | цыплёнок |
@@ -82,29 +82,29 @@
 | un filozof | doi filozofi | философ | |
 | un pin | doi pini | сосна | |
 | un copil | doi copii | ребёнок | l → i |
-| un student | doi studenti | студент | t + i = ti |
+| un student | doi studenți | студент | t + i = ți |
 | un copac | doi copaci | дерево | c + i = ci |
 | un brad | doi brazi | ёлка | d + i = zi |
 | un om | doi oameni | человек | нерегулярная форма |
 | un harbuz | doi harbuji | арбуз | z + i = ji |
 | un morcov | doi morcovi | морковь | |
 | un dovleac | doi dovleci | тыква | |
-| un mar (copac) | doi meri | яблоня | |
-| un par | doi peri | грушевое дерево | |
+| un măr (copac) | doi meri | яблоня | |
+| un păr | doi peri | грушевое дерево | |
 | un nuc | doi nuci | орех / дерево | |
 | un botin | doi botini | ботинок | |
 | un melc | doi melci | улитка | |
-| un urs | doi ursi | медведь | s + i = si |
-| un tata | doi tati | отец | t + i = ti |
-| un ministru | doi ministri | министр | |
-| un frate | doi frati | брат | |
+| un urs | doi urși | медведь | s + i = și |
+| un tată | doi tați | отец | t + i = ți |
+| un ministru | doi miniștri | министр | |
+| un frate | doi frați | брат | |
 | un iepure | doi iepuri | кролик | |
 | un mire | doi miri | жених | |
-| un caine | doi caini | собака | |
-| un munte | doi munti | гора | |
-| un dinte | doi dinti | зуб | |
+| un câine | doi câini | собака | |
+| un munte | doi munți | гора | |
+| un dinte | doi dinți | зуб | |
 | un pepene | doi pepeni | огурец | |
-| un perete | doi pereti | стена | |
+| un perete | doi pereți | стена | |
 | un unchi | doi unchi | дядя | неизменяемое |
 | un rinichi | doi rinichi | почка | неизменяемое |
 | un arici | doi arici | ёжик | неизменяемое |
@@ -118,14 +118,14 @@
 
 ### Определённый артикль у мужского рода
 
-| Forma | Пример с "tata" | Пример с "frate" |
+| Forma | Пример с "tată" | Пример с "frate" |
 |-------|-----------------|-------------------|
-| Неопр. ед. ч. | un tata | un frate |
-| Неопр. мн. ч. | niste tati | niste frati |
-| Опр. ед. ч. | tatal (tata + l) | fratele |
-| Опр. мн. ч. | tatii | fratii |
+| Неопр. ед. ч. | un tată | un frate |
+| Неопр. мн. ч. | niște tați | niște frați |
+| Опр. ед. ч. | tatăl (tată + l) | fratele |
+| Опр. мн. ч. | tații | frații |
 
-> **!** Определённый артикль мужского рода в ед. ч. прибавляется в конце слова: tata + l = tatal, frate + le = fratele.
+> **!** Определённый артикль мужского рода в ед. ч. прибавляется в конце слова: tată + l = tatăl, frate + le = fratele.
 
 ---
 
@@ -133,14 +133,14 @@
 
 | Согласная | + i | Пример ед. ч. | Пример мн. ч. |
 |-----------|-----|----------------|----------------|
-| T | Ti | student | studenti |
-| T | Ti | frate | frati |
+| T | Ți | student | studenți |
+| T | Ți | frate | frați |
 | D | zi | brad | brazi |
 | C | ci | copac | copaci |
 | Z | ji | obraz (щека) | obraji |
-| S | si | urs | ursi |
+| S | și | urs | urși |
 
-> **!** Эти чередования происходят автоматически при добавлении окончания -i во множественном числе. Запомните: D→Z, C→CI, Z→JI, S→SI.
+> **!** Эти чередования происходят автоматически при добавлении окончания -i во множественном числе. Запомните: D→Z, C→CI, Z→JI, S→ȘI.
 
 ---
 
@@ -148,15 +148,15 @@
 
 | Singular | Plural | Перевод |
 |----------|--------|---------|
-| ministru | ministri | министры |
+| ministru | miniștri | министры |
 | negru | negri | чёрные |
-| albastru | albastri | голубые |
+| albastru | albaștri | голубые |
 | gri | gri | серые |
-| vostru | vostri | ваши |
-| nostru | nostri | наши |
+| vostru | voștri | ваши |
+| nostru | noștri | наши |
 | tigru | tigri | тигры |
 | socru | socri | свёкры / тести |
-| mandru | mandri | гордые |
+| mândru | mândri | гордые |
 
 > **i** Слова на -tru, -gru, -cru, -dru образуют множественное число простым отбрасыванием -u и добавлением -i.
 
@@ -166,26 +166,26 @@
 
 | Singular | Plural | Перевод | Примечание |
 |----------|--------|---------|------------|
-| invatator | invatatori | учитель | |
+| învățător | învățători | учитель | |
 | profesor | profesori | профессор / учитель | |
-| elev / scolar | elevi / scolari | ученик | |
+| elev / școlar | elevi / școlari | ученик | |
 | coleg | colegi | коллега | g + i = gi |
-| cunoscut | cunoscuti | знакомый | |
+| cunoscut | cunoscuți | знакомый | |
 | director | directori | директор | |
-| lucrator | lucratori | работник | |
+| lucrător | lucrători | работник | |
 | doctor | doctori | врач (доктор) | |
 | medic | medici | врач (медик) | |
-| vanzator | vanzatori | продавец | |
-| cumparator | cumparatori | покупатель | |
-| bucatar | bucatari | повар | |
+| vânzător | vânzători | продавец | |
+| cumpărător | cumpărători | покупатель | |
+| bucătar | bucătari | повар | |
 | inginer | ingineri | инженер | |
 | croitor | croitori | портной | |
 | brutar | brutari | пекарь | |
-| verisor | verisori | двоюродный брат | |
-| tanar | tineri | молодой / юноша | нерегулярная форма |
-| batran | batrani | старик | |
+| verișor | verișori | двоюродный брат | |
+| tânăr | tineri | молодой / юноша | нерегулярная форма |
+| bătrân | bătrâni | старик | |
 
-> **i** Большинство профессий на -tor / -or образуют множественное число добавлением -i: invatator → invatatori, doctor → doctori.
+> **i** Большинство профессий на -tor / -or образуют множественное число добавлением -i: învățător → învățători, doctor → doctori.
 
 ---
 
@@ -194,27 +194,27 @@
 | Singular | Plural | Перевод |
 |----------|--------|---------|
 | bunic | bunici | дедушка |
-| strabunic | strabunici | прадедушка |
+| străbunic | străbunici | прадедушка |
 | fiu | fii | сын |
-| tata | tati | отец |
-| baiat | baieti | мальчик |
+| tată | tați | отец |
+| băiat | băieți | мальчик |
 | vecin | vecini | сосед |
 | prieten | prieteni | друг |
-| strabun / stramos | strabuni / stramosi | предок |
-| nepot | nepoti | внук |
-| stranepot | stranepoti | правнук |
+| străbun / strămoș | străbuni / strămoși | предок |
+| nepot | nepoți | внук |
+| strănepot | strănepoți | правнук |
 
 ---
 
 ## НОВЫЕ СЛОВА
 
-### Urmatorul — следующий (4 формы по роду)
+### Următor — следующий (4 формы по роду)
 
 | M ед. ч. | F ед. ч. | M мн. ч. | F мн. ч. |
 |----------|----------|----------|----------|
-| urmatorul | urmatoarea | urmatorii | urmatoarele |
+| următorul | următoarea | următorii | următoarele |
 
-### Viitorul — будущий (4 формы по роду)
+### Viitor — будущий (4 формы по роду)
 
 | M ед. ч. | F ед. ч. | M мн. ч. | F мн. ч. |
 |----------|----------|----------|----------|
@@ -222,25 +222,25 @@
 
 ### Другие новые слова
 
-| Romana | Перевод | Род |
+| Română | Перевод | Род |
 |--------|---------|-----|
 | creier | мозг | M |
 | greier | кузнечик | M |
-| vant | ветер | — |
+| vânt | ветер | — |
 
 ### A vinde = продавать
 
 | Persoana | Forma |
 |----------|-------|
-| eu | vand |
+| eu | vând |
 | tu | vinzi |
 | el / ea | vinde |
 
-> **i** Не путайте: **vant** (ветер) и **vand** (продаю) — похожи по звучанию, но разные по значению.
+> **i** Не путайте: **vânt** (ветер) и **vând** (продаю) — похожи по звучанию, но разные по значению.
 
 ### Паронимы (Paronime)
 
-| Cuvant | Перевод |
+| Cuvânt | Перевод |
 |--------|---------|
 | oral | устно |
 | orar | расписание |
