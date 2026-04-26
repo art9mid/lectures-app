@@ -21,7 +21,34 @@ import {
   BookA,
   Search,
   X,
+  ArrowRight,
+  Loader2,
 } from "lucide-react";
+
+/* ── Search result types ── */
+
+interface FuseMatch {
+  indices: [number, number][];
+  key: string;
+  value: string;
+}
+
+interface SearchResult {
+  sourceId: string;
+  sourceLabel: string;
+  sectionId: string;
+  sectionTitle: string;
+  line: string;
+  lineIndex: number;
+  score?: number;
+  matches?: FuseMatch[];
+}
+
+interface GroupedResults {
+  sourceId: string;
+  sourceLabel: string;
+  results: SearchResult[];
+}
 
 /* ── Sources ── */
 
@@ -183,42 +210,125 @@ export default function Home() {
   );
   const [sidebarOpen, setSidebarOpen] = useState(false);
   const [initialScrollDone, setInitialScrollDone] = useState(false);
+  const [searchOpen, setSearchOpen] = useState(false);
   const [searchQuery, setSearchQuery] = useState("");
+  const [searchResults, setSearchResults] = useState<GroupedResults[]>([]);
+  const [searchLoading, setSearchLoading] = useState(false);
+  const [selectedIndex, setSelectedIndex] = useState(0);
   const contentRef = useRef<HTMLDivElement>(null);
   const searchInputRef = useRef<HTMLInputElement>(null);
+  const searchTimerRef = useRef<ReturnType<typeof setTimeout>>(null);
 
   const currentSource = sources.find((s) => s.id === activeSource) || sources[0];
   const currentSections = parseSections(currentSource.md);
+  const displayMd = currentSource.md;
 
-  // Filter markdown content if searching
-  const displayMd = searchQuery
-    ? currentSource.md
-        .split("\n")
-        .filter((line) => {
-          if (line.startsWith("#") || line.startsWith("---") || line.startsWith("| -")) return true;
-          if (line.startsWith("|") && line.includes("Romana")) return true;
-          if (line.startsWith("|") && line.includes("Перевод")) return true;
-          return line.toLowerCase().includes(searchQuery.toLowerCase());
-        })
-        .join("\n")
-    : currentSource.md;
+  // Flat list of all results for keyboard navigation
+  const flatResults = searchResults.flatMap((g) => g.results);
 
-  // Keyboard shortcut
+  // Debounced search via API
+  useEffect(() => {
+    if (!searchQuery || searchQuery.length < 2) {
+      setSearchResults([]);
+      setSearchLoading(false);
+      return;
+    }
+    setSearchLoading(true);
+    if (searchTimerRef.current) clearTimeout(searchTimerRef.current);
+    searchTimerRef.current = setTimeout(async () => {
+      try {
+        const res = await fetch(
+          `/api/search?q=${encodeURIComponent(searchQuery)}`
+        );
+        const data = await res.json();
+        // Group by source
+        const grouped = new Map<string, GroupedResults>();
+        for (const r of data.results as SearchResult[]) {
+          if (!grouped.has(r.sourceId)) {
+            grouped.set(r.sourceId, {
+              sourceId: r.sourceId,
+              sourceLabel: r.sourceLabel,
+              results: [],
+            });
+          }
+          grouped.get(r.sourceId)!.results.push(r);
+        }
+        setSearchResults(Array.from(grouped.values()));
+        setSelectedIndex(0);
+      } catch {
+        setSearchResults([]);
+      } finally {
+        setSearchLoading(false);
+      }
+    }, 200);
+    return () => {
+      if (searchTimerRef.current) clearTimeout(searchTimerRef.current);
+    };
+  }, [searchQuery]);
+
+  // Navigate to a search result
+  const navigateToResult = useCallback(
+    (result: SearchResult) => {
+      setActiveSource(result.sourceId);
+      setSearchOpen(false);
+      setSearchQuery("");
+      // Wait for source change to render, then scroll to section
+      setTimeout(() => {
+        if (result.sectionId) {
+          const el = document.getElementById(result.sectionId);
+          if (el) {
+            el.scrollIntoView({ behavior: "smooth", block: "start" });
+            setActiveSection(result.sectionId);
+          }
+        }
+      }, 150);
+    },
+    []
+  );
+
+  // Keyboard shortcuts
   useEffect(() => {
     const handler = (e: KeyboardEvent) => {
       if ((e.metaKey || e.ctrlKey) && e.key === "k") {
         e.preventDefault();
-        searchInputRef.current?.focus();
+        setSearchOpen(true);
       }
       if (e.key === "Escape") {
-        setSearchQuery("");
-        searchInputRef.current?.blur();
-        setSidebarOpen(false);
+        if (searchOpen) {
+          setSearchOpen(false);
+          setSearchQuery("");
+        } else {
+          setSidebarOpen(false);
+        }
       }
     };
     window.addEventListener("keydown", handler);
     return () => window.removeEventListener("keydown", handler);
-  }, []);
+  }, [searchOpen]);
+
+  // Focus search input when modal opens
+  useEffect(() => {
+    if (searchOpen) {
+      setTimeout(() => searchInputRef.current?.focus(), 50);
+    }
+  }, [searchOpen]);
+
+  // Search modal keyboard navigation
+  const handleSearchKeyDown = useCallback(
+    (e: React.KeyboardEvent) => {
+      if (e.key === "ArrowDown") {
+        e.preventDefault();
+        setSelectedIndex((i) => Math.min(i + 1, flatResults.length - 1));
+      } else if (e.key === "ArrowUp") {
+        e.preventDefault();
+        setSelectedIndex((i) => Math.max(i - 1, 0));
+      } else if (e.key === "Enter" && flatResults[selectedIndex]) {
+        e.preventDefault();
+        navigateToResult(flatResults[selectedIndex]);
+      }
+    },
+    [flatResults, selectedIndex, navigateToResult]
+  );
 
   // Update hash
   useEffect(() => {
@@ -420,26 +530,17 @@ export default function Home() {
             )}
           </button>
 
-          {/* Search */}
-          <div className="relative flex-1 max-w-sm">
-            <Search className="absolute left-2.5 top-1/2 -translate-y-1/2 w-3.5 h-3.5 text-text-muted" />
-            <input
-              ref={searchInputRef}
-              type="text"
-              placeholder="Search..."
-              value={searchQuery}
-              onChange={(e) => setSearchQuery(e.target.value)}
-              className="w-full pl-8 pr-8 py-1.5 rounded-lg bg-bg-card border border-border text-sm text-text placeholder:text-text-muted focus:outline-none focus:ring-1 focus:ring-accent/50 focus:border-accent/50"
-            />
-            {searchQuery && (
-              <button
-                onClick={() => setSearchQuery("")}
-                className="absolute right-2 top-1/2 -translate-y-1/2 w-5 h-5 rounded flex items-center justify-center hover:bg-bg-hover cursor-pointer"
-              >
-                <X className="w-3 h-3 text-text-muted" />
-              </button>
-            )}
-          </div>
+          {/* Search trigger */}
+          <button
+            onClick={() => setSearchOpen(true)}
+            className="flex-1 max-w-sm flex items-center gap-2 px-3 py-1.5 rounded-lg bg-bg-card border border-border text-sm text-text-muted hover:border-border-light transition-colors cursor-pointer"
+          >
+            <Search className="w-3.5 h-3.5" />
+            <span className="flex-1 text-left truncate">Search all materials...</span>
+            <kbd className="hidden sm:inline-flex items-center gap-0.5 px-1.5 py-0.5 rounded bg-bg-hover text-[10px] font-mono text-text-muted">
+              ⌘K
+            </kbd>
+          </button>
 
           {/* Current source label — desktop only */}
           <span className="text-[12px] text-text-muted hidden md:block flex-shrink-0 truncate max-w-48">
@@ -450,11 +551,6 @@ export default function Home() {
         {/* Content */}
         <div className="flex-1 overflow-y-auto" ref={contentRef}>
           <div className="max-w-3xl mx-auto px-4 sm:px-8 py-6 sm:py-10">
-            {searchQuery && (
-              <div className="mb-4 sm:mb-6 px-3 sm:px-4 py-2 rounded-lg bg-accent-dim border border-accent/20 text-xs sm:text-sm text-accent">
-                Searching for &ldquo;{searchQuery}&rdquo;
-              </div>
-            )}
             <ReactMarkdown
               remarkPlugins={[remarkGfm]}
               components={mdComponents}
@@ -465,6 +561,176 @@ export default function Home() {
           </div>
         </div>
       </main>
+
+      {/* Global search modal */}
+      {searchOpen && (
+        <div
+          className="fixed inset-0 z-[100] flex items-start justify-center pt-[15vh] sm:pt-[20vh]"
+          onClick={() => {
+            setSearchOpen(false);
+            setSearchQuery("");
+          }}
+        >
+          {/* Backdrop */}
+          <div className="absolute inset-0 bg-black/60 backdrop-blur-sm" />
+
+          {/* Modal */}
+          <div
+            className="relative w-full max-w-lg mx-4 bg-bg-surface border border-border rounded-xl shadow-2xl overflow-hidden"
+            onClick={(e) => e.stopPropagation()}
+          >
+            {/* Search input */}
+            <div className="flex items-center gap-3 px-4 py-3 border-b border-border">
+              <Search className="w-4 h-4 text-text-muted flex-shrink-0" />
+              <input
+                ref={searchInputRef}
+                type="text"
+                placeholder="Search across all materials..."
+                value={searchQuery}
+                onChange={(e) => setSearchQuery(e.target.value)}
+                onKeyDown={handleSearchKeyDown}
+                className="flex-1 bg-transparent text-sm text-text placeholder:text-text-muted focus:outline-none"
+              />
+              {searchLoading && (
+                <Loader2 className="w-4 h-4 text-text-muted animate-spin flex-shrink-0" />
+              )}
+              {searchQuery && !searchLoading && (
+                <button
+                  onClick={() => setSearchQuery("")}
+                  className="w-5 h-5 rounded flex items-center justify-center hover:bg-bg-hover cursor-pointer flex-shrink-0"
+                >
+                  <X className="w-3 h-3 text-text-muted" />
+                </button>
+              )}
+              <kbd className="hidden sm:inline-flex px-1.5 py-0.5 rounded bg-bg-hover text-[10px] font-mono text-text-muted flex-shrink-0">
+                ESC
+              </kbd>
+            </div>
+
+            {/* Results */}
+            <div className="max-h-[50vh] overflow-y-auto">
+              {searchQuery.length >= 2 && !searchLoading && flatResults.length === 0 && (
+                <div className="px-4 py-8 text-center text-sm text-text-muted">
+                  No results for &ldquo;{searchQuery}&rdquo;
+                </div>
+              )}
+
+              {searchQuery.length >= 2 && searchQuery.length < 2 && (
+                <div className="px-4 py-8 text-center text-sm text-text-muted">
+                  Type at least 2 characters...
+                </div>
+              )}
+
+              {!searchQuery && (
+                <div className="px-4 py-8 text-center text-sm text-text-muted">
+                  Search Romanian words, grammar rules, translations...
+                </div>
+              )}
+
+              {searchResults.map((group) => {
+                return (
+                  <div key={group.sourceId}>
+                    <div className="px-4 py-2 bg-bg-card/50 border-b border-border/50 sticky top-0">
+                      <span className="text-[11px] uppercase tracking-wider font-medium text-text-muted">
+                        {group.sourceLabel}
+                      </span>
+                      <span className="text-[10px] text-text-muted ml-2">
+                        ({group.results.length})
+                      </span>
+                    </div>
+                    {group.results.map((result, i) => {
+                      const globalIndex = flatResults.indexOf(result);
+                      const isSelected = globalIndex === selectedIndex;
+                      return (
+                        <button
+                          key={`${result.sourceId}-${result.lineIndex}-${i}`}
+                          onClick={() => navigateToResult(result)}
+                          onMouseEnter={() => setSelectedIndex(globalIndex)}
+                          className={`w-full text-left px-4 py-2.5 flex items-start gap-3 transition-colors cursor-pointer ${
+                            isSelected
+                              ? "bg-accent-dim"
+                              : "hover:bg-bg-hover"
+                          }`}
+                        >
+                          <div className="flex-1 min-w-0">
+                            <div className="text-[11px] text-text-muted mb-0.5">
+                              {result.sectionTitle}
+                            </div>
+                            <HighlightedText
+                              text={result.line}
+                              matches={result.matches}
+                            />
+                          </div>
+                          {isSelected && (
+                            <ArrowRight className="w-3.5 h-3.5 text-accent mt-1 flex-shrink-0" />
+                          )}
+                        </button>
+                      );
+                    })}
+                  </div>
+                );
+              })}
+            </div>
+
+            {/* Footer */}
+            {flatResults.length > 0 && (
+              <div className="px-4 py-2 border-t border-border flex items-center gap-4 text-[10px] text-text-muted">
+                <span className="flex items-center gap-1">
+                  <kbd className="px-1 py-0.5 rounded bg-bg-hover font-mono">↑↓</kbd>
+                  navigate
+                </span>
+                <span className="flex items-center gap-1">
+                  <kbd className="px-1 py-0.5 rounded bg-bg-hover font-mono">↵</kbd>
+                  open
+                </span>
+                <span className="ml-auto">{flatResults.length} results</span>
+              </div>
+            )}
+          </div>
+        </div>
+      )}
     </div>
   );
+}
+
+/* ── Highlight matches using Fuse indices ── */
+
+function HighlightedText({
+  text,
+  matches,
+}: {
+  text: string;
+  matches?: FuseMatch[];
+}) {
+  if (!matches || matches.length === 0) {
+    return <p className="text-xs text-text-secondary line-clamp-2">{text}</p>;
+  }
+
+  // Merge all match indices and sort
+  const indices = matches
+    .flatMap((m) => m.indices)
+    .sort((a, b) => a[0] - b[0]);
+
+  const parts: React.ReactNode[] = [];
+  let lastEnd = 0;
+
+  for (const [start, end] of indices) {
+    if (start > lastEnd) {
+      parts.push(<span key={`t-${lastEnd}`}>{text.slice(lastEnd, start)}</span>);
+    }
+    parts.push(
+      <mark
+        key={`m-${start}`}
+        className="bg-accent/25 text-accent-hover rounded-sm px-0.5"
+      >
+        {text.slice(start, end + 1)}
+      </mark>
+    );
+    lastEnd = end + 1;
+  }
+  if (lastEnd < text.length) {
+    parts.push(<span key={`t-${lastEnd}`}>{text.slice(lastEnd)}</span>);
+  }
+
+  return <p className="text-xs text-text-secondary line-clamp-2">{parts}</p>;
 }
