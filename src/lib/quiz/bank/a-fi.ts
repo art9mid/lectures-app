@@ -1,0 +1,28 @@
+import type { Question } from '../types';
+
+export const questions: Question[] = [
+  { kind: 'choice', prompt: 'Eu ___ profesor.', options: ['sunt', 'este', 'ești'], answer: 'sunt', explain: 'eu → sunt' },
+  { kind: 'choice', prompt: 'Noi ___ acasă.', options: ['sunt', 'suntem', 'este'], answer: 'suntem', explain: 'noi → suntem' },
+  { kind: 'choice', prompt: 'El ___ student.', options: ['este', 'ești', 'sunteți'], answer: 'este', explain: 'el / ea → este' },
+  { kind: 'choice', prompt: 'Voi ___ la școală.', options: ['sunt', 'sunteți', 'este'], answer: 'sunteți', explain: 'voi → sunteți' },
+  { kind: 'choice', prompt: 'Ele ___ profesoare.', options: ['este', 'sunt', 'ești'], answer: 'sunt', explain: 'ei / ele → sunt (как и «eu sunt»)' },
+  { kind: 'choice', prompt: 'Tu ___ obosit.', options: ['sunt', 'este', 'ești'], answer: 'ești', explain: 'tu → ești' },
+  { kind: 'choice', prompt: 'Maria ___ acasă.', options: ['sunt', 'este', 'suntem'], answer: 'este', explain: 'Maria = ea → este' },
+  { kind: 'choice', prompt: 'Copiii ___ la școală.', options: ['este', 'sunt', 'ești'], answer: 'sunt', explain: 'copiii = ei → sunt' },
+  { kind: 'choice', prompt: 'Astăzi vremea ___ frumoasă.', options: ['este', 'sunt', 'suntem'], answer: 'este', explain: 'vremea = ea (одна вещь) → este' },
+  { kind: 'choice', prompt: '«Sunt acasă.» Кто дома?', options: ['я или они', 'он', 'мы'], answer: 'я или они', explain: 'sunt = eu sunt / ei sunt. Без местоимения обычно понимают «я».' },
+  { kind: 'choice', prompt: 'Как сказать «Я не студент»?', options: ['Eu nu sunt student.', 'Eu sunt nu student.', 'Nu eu sunt student.'], answer: 'Eu nu sunt student.', explain: 'nu стоит прямо перед глаголом' },
+  { kind: 'choice', prompt: 'Ei / Ele — когда говорим «ele»?', options: ['только женщины', 'только мужчины', 'смешанная группа'], answer: 'только женщины', explain: 'Смешанная группа и мужчины → ei' },
+  { kind: 'input', prompt: 'Переведи: Я дома.', answer: ['Eu sunt acasă', 'Sunt acasă'], explain: 'acasă = дома' },
+  { kind: 'input', prompt: 'Переведи: Она учительница.', answer: ['Ea este profesoară', 'Ea e profesoară'] },
+  { kind: 'input', prompt: 'Переведи: Мы не дома.', answer: ['Noi nu suntem acasă', 'Nu suntem acasă'] },
+  { kind: 'input', prompt: 'Переведи: Вы устали?', answer: ['Voi sunteți obosiți', 'Sunteți obosiți'] },
+  { kind: 'input', prompt: 'Переведи: Они в школе.', answer: ['Ei sunt la școală', 'Ele sunt la școală', 'Sunt la școală'] },
+  { kind: 'input', prompt: 'Переведи: Ты счастлив.', answer: ['Tu ești fericit', 'Ești fericit'] },
+  { kind: 'input', prompt: 'Вставь местоимение: ___ suntem colegi.', answer: 'Noi' },
+  { kind: 'input', prompt: 'Вставь местоимение: ___ ești acasă.', answer: 'Tu' },
+  { kind: 'input', prompt: 'Вставь местоимение: ___ sunteți elevi.', answer: 'Voi' },
+  { kind: 'input', prompt: 'Переведи слово: на улице', answer: 'afară' },
+  { kind: 'input', prompt: 'Переведи слово: уставший', answer: 'obosit' },
+  { kind: 'input', prompt: 'Переведи слово: грустный', answer: 'trist' },
+];

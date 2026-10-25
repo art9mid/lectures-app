@@ -1,36 +1,42 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Limba Română
 
-## Getting Started
+Подготовка к экзамену по румынскому (B1, гражданство). Next.js 16 + [Fumadocs](https://fumadocs.dev).
 
-First, run the development server:
+- `content/docs/lectii/*.mdx` уроки (выжимка, теория, примеры с озвучкой, упражнения, тест)
+- `content/docs/examen/*.mdx` про экзамен, как учить, культура и Конституция, устная часть
+- `content/docs/vechi/*.mdx` старый курс
+- `src/lib/quiz/` банк вопросов, генераторы (числа, спряжения), сборка случайного теста
+- `/teste`, `/teste/[topic]`, `/progres` тесты и статистика
+
+## Запуск
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+node scripts/check-numbers.mts   # проверка генератора чисел
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Результаты на телефоне и ПК (Supabase)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. Сейчас используется таблица `ro_attempts` в проекте Supabase `ib-exam-notes`. Для нового проекта: создай его на supabase.com.
+2. SQL Editor → выполни `supabase/schema.sql`.
+3. Project Settings → API → скопируй URL и anon key в `.env.local` (см. `.env.example`) и в Vercel → Settings → Environment Variables.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Без этих переменных результаты хранятся только в браузере.
 
-## Learn More
+Безопасности нет специально: любой, кто знает URL сайта, может читать и добавлять результаты. Для одного пользователя это нормально.
 
-To learn more about Next.js, take a look at the following resources:
+## Добавить урок
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. Создай `content/docs/lectii/09-....mdx` (формат как в `01-a-fi.mdx`) и добавь в `content/docs/lectii/meta.json`.
+2. Вопросы: `src/lib/quiz/bank/<id>.ts`, затем строка в `TOPICS` в `src/lib/quiz/topics.ts`.
+3. В MDX: `<Quiz topics={['<id>']} count={10} />`.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Компоненты для MDX: `Ex`, `Formula`, `Conj`, `Compare`/`Side`, `Answer`, `Say`, `Quiz` (`src/components/learn.tsx`, `quiz.tsx`) плюс встроенные Fumadocs (`Callout`, `Tabs`, `Steps`, `Accordion`, `Cards`).
 
-## Deploy on Vercel
+## Голос (Azure Neural TTS)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Кнопки 🔊 берут голос `ro-RO-AlinaNeural` через `/api/tts` (MP3 кэшируется CDN). Без ключа используется голос браузера.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. portal.azure.com → Create resource → **Speech** → тариф Free F0, регион West Europe.
+2. Keys and Endpoint → KEY 1 → `AZURE_SPEECH_KEY` в `.env.local` и в Vercel. Регион → `AZURE_SPEECH_REGION`.

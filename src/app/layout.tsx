@@ -1,34 +1,23 @@
-import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
-import "./globals.css";
+import { RootProvider } from 'fumadocs-ui/provider/next';
+import type { Metadata } from 'next';
+import './global.css';
+import { Inter } from 'next/font/google';
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
+// latin-ext carries ă â î ș ț, cyrillic the Russian text
+const inter = Inter({
+  subsets: ['latin', 'latin-ext', 'cyrillic'],
 });
 
 export const metadata: Metadata = {
-  title: "Lectures — Romanian Language",
-  description: "Personal lecture notes dashboard",
+  title: { default: 'Limba Română · подготовка к экзамену', template: '%s · Limba Română' },
+  description: 'Румынский язык для экзамена на гражданство: уроки, случайные тесты, прогресс.',
 };
 
-export default function RootLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+export default function Layout({ children }: LayoutProps<'/'>) {
   return (
-    <html
-      lang="en"
-      className={`${geistSans.variable} ${geistMono.variable} dark`}
-    >
-      <body className="min-h-screen font-sans bg-bg text-text antialiased">
-        {children}
+    <html lang="ru" className={inter.className} suppressHydrationWarning>
+      <body className="flex flex-col min-h-screen">
+        <RootProvider>{children}</RootProvider>
       </body>
     </html>
   );

@@ -2,17 +2,19 @@
 
 ## Project overview
 
-Romanian language learning app (Limba Română). Single-page Next.js app that renders markdown lecture content with a sidebar, section navigation, and global search.
+Romanian exam prep app (B1 / citizenship). Next.js 16 + Fumadocs (fumadocs-ui, fumadocs-mdx). See README.md for layout.
 
 ## Architecture
 
-- **Content**: Markdown files in `src/content/` (lectures, konspekt, dictionary). Imported as raw strings via Turbopack/webpack `raw-loader`.
-- **Search**: Fuse.js fuzzy search via API route (`src/app/api/search/route.ts`). Indexes all markdown content server-side, returns results with match highlights.
-- **UI**: Single client component (`src/app/page.tsx`) with hash-based routing, sidebar navigation, search modal (⌘K), and translate button (Google Translate RU→RO).
-- **Styling**: Tailwind CSS 4 with CSS custom properties for dark theme. Design tokens in `globals.css`.
+- **Content**: MDX in `content/docs/` (lectii, examen, vechi). Sidebar order via `meta.json`.
+- **MDX components**: `src/components/mdx.tsx` registers `Ex`, `Formula`, `Conj`, `Compare`/`Side`, `Answer`, `Say` (browser TTS ro-RO), `Quiz`.
+- **Quiz**: `src/lib/quiz/topics.ts` (registry + `buildTest`), banks in `src/lib/quiz/bank/`, generators `numbers.ts`, `verbs.ts`. Questions are plain JSON so wrong answers can be stored and replayed.
+- **Results**: `src/lib/results.ts` → Supabase REST table `ro_attempts` (schema in `supabase/schema.sql`) when `NEXT_PUBLIC_SUPABASE_*` set, else localStorage.
+- **Search**: Fumadocs Orama via `src/app/api/search/route.ts`.
 
 ## Content rules
 
-- All Romanian text MUST use proper diacritics: ă, â, î, ș, ț (never plain ASCII approximations)
-- Content is bilingual Romanian-Russian. Don't modify Russian text when editing Romanian.
+- All Romanian text MUST use proper diacritics: ă, â, î, ș, ț (comma-below, never cedilla)
+- Explanations in Russian, short and concrete. No em dashes in prose.
 - Table headers use "Română" (not "Romana")
+- Number words must match `toWords()`; run `node scripts/check-numbers.mts` after changing it.
