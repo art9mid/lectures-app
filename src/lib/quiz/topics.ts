@@ -16,6 +16,11 @@ import { questions as articol } from './bank/articol';
 import { questions as plural } from './bank/plural';
 import { questions as adjective } from './bank/adjective';
 import { questions as oraData, generate as oraDataGen } from './bank/ora-data';
+import { questions as familia } from './bank/familia';
+import { questions as prepozitii } from './bank/prepozitii';
+import { questions as trecut } from './bank/trecut';
+import { questions as reflexive, generate as reflexiveGen } from './bank/reflexive';
+import { VERBS } from './verbs';
 
 const tag = (topic: string, qs: Question[]) => qs.map((q) => ({ ...q, topic }));
 
@@ -33,6 +38,10 @@ export const TOPICS: Topic[] = [
   { id: 'plural', title: 'Pluralul substantivelor', href: '/docs/lectii/10-pluralul', questions: () => tag('plural', plural) },
   { id: 'adjective', title: 'Adjectivul (acordul)', href: '/docs/lectii/11-adjectivul', questions: () => tag('adjective', adjective) },
   { id: 'ora-data', title: 'Ora și data', href: '/docs/lectii/12-ora-si-data', questions: () => [...tag('ora-data', oraData), ...oraDataGen()] },
+  { id: 'familia', title: 'Familia', href: '/docs/lectii/13-familia', questions: () => tag('familia', familia) },
+  { id: 'prepozitii', title: 'Prepozițiile', href: '/docs/lectii/14-prepozitiile', questions: () => tag('prepozitii', prepozitii) },
+  { id: 'trecut', title: 'Perfectul compus (trecut)', href: '/docs/lectii/15-perfectul-compus', questions: () => [...tag('trecut', trecut), ...verbQuestions(Object.keys(VERBS), ['trecut'], 12, 'trecut')] },
+  { id: 'reflexive', title: 'Verbele reflexive (mă, te, se)', href: '/docs/lectii/16-verbele-reflexive', questions: () => [...tag('reflexive', reflexive), ...reflexiveGen()] },
   { id: 'gen', title: 'Genul substantivelor', href: '/docs/vechi/lecture-5', questions: () => tag('gen', gen) },
   { id: 'civica', title: 'Cultură și Constituție', href: '/docs/examen/cultura-civica', questions: () => tag('civica', civica) },
 ];

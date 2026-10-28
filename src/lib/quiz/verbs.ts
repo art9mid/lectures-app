@@ -32,6 +32,16 @@ export const VERBS: Record<string, Verb> = {
   intra: { inf: 'a intra', ru: 'входить', prezent: ['intru', 'intri', 'intră', 'intrăm', 'intrați', 'intră'], part: 'intrat' },
   alerga: { inf: 'a alerga', ru: 'бегать', prezent: ['alerg', 'alergi', 'aleargă', 'alergăm', 'alergați', 'aleargă'], part: 'alergat' },
   asculta: { inf: 'a asculta', ru: 'слушать', prezent: ['ascult', 'asculți', 'ascultă', 'ascultăm', 'ascultați', 'ascultă'], part: 'ascultat' },
+  scrie: { inf: 'a scrie', ru: 'писать', prezent: ['scriu', 'scrii', 'scrie', 'scriem', 'scrieți', 'scriu'], part: 'scris' },
+  pune: { inf: 'a pune', ru: 'класть, ставить', prezent: ['pun', 'pui', 'pune', 'punem', 'puneți', 'pun'], part: 'pus' },
+  spune: { inf: 'a spune', ru: 'говорить, сказать', prezent: ['spun', 'spui', 'spune', 'spunem', 'spuneți', 'spun'], part: 'spus' },
+  bea: { inf: 'a bea', ru: 'пить', prezent: ['beau', 'bei', 'bea', 'bem', 'beți', 'beau'], part: 'băut' },
+  lua: { inf: 'a lua', ru: 'брать', prezent: ['iau', 'iei', 'ia', 'luăm', 'luați', 'iau'], part: 'luat' },
+  vrea: { inf: 'a vrea', ru: 'хотеть', prezent: ['vreau', 'vrei', 'vrea', 'vrem', 'vreți', 'vor'], part: 'vrut' },
+  putea: { inf: 'a putea', ru: 'мочь', prezent: ['pot', 'poți', 'poate', 'putem', 'puteți', 'pot'], part: 'putut' },
+  da: { inf: 'a da', ru: 'давать', prezent: ['dau', 'dai', 'dă', 'dăm', 'dați', 'dau'], part: 'dat' },
+  sta: { inf: 'a sta', ru: 'стоять, находиться', prezent: ['stau', 'stai', 'stă', 'stăm', 'stați', 'stau'], part: 'stat' },
+  cumpara: { inf: 'a cumpăra', ru: 'покупать', prezent: ['cumpăr', 'cumperi', 'cumpără', 'cumpărăm', 'cumpărați', 'cumpără'], part: 'cumpărat' },
 };
 
 export type Tense = 'prezent' | 'trecut' | 'viitor';
