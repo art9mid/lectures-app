@@ -9,7 +9,8 @@ Romanian exam prep app (B1 / citizenship). Next.js 16 + Fumadocs (fumadocs-ui, f
 - **Content**: MDX in `content/docs/` (lectii, examen, vechi). Sidebar order via `meta.json`.
 - **MDX components**: `src/components/mdx.tsx` registers `Ex`, `Formula`, `Conj`, `Compare`/`Side`, `Answer`, `Say` (browser TTS ro-RO), `Quiz`.
 - **Quiz**: `src/lib/quiz/topics.ts` (registry + `buildTest`), banks in `src/lib/quiz/bank/`, generators `numbers.ts`, `verbs.ts`. Questions are plain JSON so wrong answers can be stored and replayed.
-- **Results**: `src/lib/results.ts` → Supabase REST table `ro_attempts` (schema in `supabase/schema.sql`) when `NEXT_PUBLIC_SUPABASE_*` set, else localStorage.
+- **Auth**: `SITE_PASSWORD`; `src/proxy.ts` redirects to `/login` without the `ro_auth` cookie (`src/lib/auth.ts`).
+- **Results**: `src/lib/results.ts` → `/api/attempts` (server-side) → Supabase REST table `ro_attempts` (schema in `supabase/schema.sql`) when `SUPABASE_URL, SUPABASE_ANON_KEY` set, else localStorage.
 - **Search**: Fumadocs Orama via `src/app/api/search/route.ts`.
 
 ## Content rules

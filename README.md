@@ -40,3 +40,7 @@ node scripts/check-numbers.mts   # проверка генератора чис�
 
 1. portal.azure.com → Create resource → **Speech** → тариф Free F0, регион West Europe.
 2. Keys and Endpoint → KEY 1 → `AZURE_SPEECH_KEY` в `.env.local` и в Vercel. Регион → `AZURE_SPEECH_REGION`.
+
+## Пароль
+
+`SITE_PASSWORD` в `.env.local` и в Vercel. Проверка в `src/proxy.ts`: без входа открыта только `/login`. После входа ставится httpOnly cookie примерно на год. Смена пароля разлогинивает все устройства.

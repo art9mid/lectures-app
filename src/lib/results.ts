@@ -9,13 +9,10 @@ export type Attempt = {
   wrong: Question[];
 };
 
-const URL = process.env.NEXT_PUBLIC_SUPABASE_URL;
-const KEY = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
 const LOCAL = 'ro-attempts';
 
-export const cloudEnabled = Boolean(URL && KEY);
-
-const headers = { apikey: KEY ?? '', Authorization: `Bearer ${KEY}`, 'Content-Type': 'application/json' };
+// True until /api/attempts answers 501 (Supabase not configured); then this browser's localStorage is used.
+export let cloudEnabled = true;
 
 function readLocal(): Attempt[] {
   try {
@@ -25,13 +22,7 @@ function readLocal(): Attempt[] {
   }
 }
 
-// Single user, no auth: Supabase when env vars are set (phone + PC share data), otherwise this browser only.
-export async function saveAttempt(a: Attempt): Promise<void> {
-  if (cloudEnabled) {
-    const res = await fetch(`${URL}/rest/v1/ro_attempts`, { method: 'POST', headers, body: JSON.stringify(a) });
-    if (!res.ok) throw new Error(`Supabase: ${res.status} ${await res.text()}`);
-    return;
-  }
+function saveLocal(a: Attempt) {
   try {
     localStorage.setItem(LOCAL, JSON.stringify([{ ...a, created_at: new Date().toISOString() }, ...readLocal()].slice(0, 500)));
   } catch {
@@ -39,11 +30,26 @@ export async function saveAttempt(a: Attempt): Promise<void> {
   }
 }
 
+export async function saveAttempt(a: Attempt): Promise<void> {
+  if (cloudEnabled) {
+    const res = await fetch('/api/attempts', { method: 'POST', body: JSON.stringify(a) });
+    if (res.status !== 501) {
+      if (!res.ok) throw new Error(`${res.status} ${await res.text()}`);
+      return;
+    }
+    cloudEnabled = false;
+  }
+  saveLocal(a);
+}
+
 export async function loadAttempts(): Promise<Attempt[]> {
   if (cloudEnabled) {
-    const res = await fetch(`${URL}/rest/v1/ro_attempts?select=*&order=created_at.desc&limit=500`, { headers });
-    if (!res.ok) throw new Error(`Supabase: ${res.status} ${await res.text()}`);
-    return res.json();
+    const res = await fetch('/api/attempts', { cache: 'no-store' });
+    if (res.status !== 501) {
+      if (!res.ok) throw new Error(`${res.status} ${await res.text()}`);
+      return res.json();
+    }
+    cloudEnabled = false;
   }
   return readLocal();
 }
