@@ -1,4 +1,19 @@
 {
   "title": "Lecții",
-  "pages": ["00-cifrele", "01-a-fi", "sunt-vs-este", "02-vremea-zilele", "03-a-avea", "04-verbe-de-baza", "05-prezent", "06-conjugarea", "07-viata-mea-seara", "08-viitorul"]
+  "pages": [
+    "00-cifrele",
+    "01-a-fi",
+    "sunt-vs-este",
+    "02-vremea-zilele",
+    "03-a-avea",
+    "04-verbe-de-baza",
+    "05-prezent",
+    "06-conjugarea",
+    "07-viata-mea-seara",
+    "08-viitorul",
+    "09-articolul-hotarat",
+    "10-pluralul",
+    "11-adjectivul",
+    "12-ora-si-data"
+  ]
 }

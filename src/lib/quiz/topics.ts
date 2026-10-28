@@ -12,6 +12,10 @@ import { questions as seara } from './bank/seara';
 import { questions as viitor } from './bank/viitor';
 import { questions as gen } from './bank/gen';
 import { questions as civica } from './bank/civica';
+import { questions as articol } from './bank/articol';
+import { questions as plural } from './bank/plural';
+import { questions as adjective } from './bank/adjective';
+import { questions as oraData, generate as oraDataGen } from './bank/ora-data';
 
 const tag = (topic: string, qs: Question[]) => qs.map((q) => ({ ...q, topic }));
 
@@ -25,6 +29,10 @@ export const TOPICS: Topic[] = [
   { id: 'timpuri', title: 'Prezent, trecut, viitor', href: '/docs/lectii/06-conjugarea', questions: () => [...tag('timpuri', timpuri), ...verbQuestions(['lucra', 'desena', 'deschide', 'inchide', 'citi', 'hotari'], ['prezent', 'trecut', 'viitor'], 12, 'timpuri')] },
   { id: 'seara', title: 'Viața mea seara (text)', href: '/docs/lectii/07-viata-mea-seara', questions: () => tag('seara', seara) },
   { id: 'viitor', title: 'Timpul viitor', href: '/docs/lectii/08-viitorul', questions: () => [...tag('viitor', viitor), ...verbQuestions(['merge', 'veni', 'invata', 'lucra', 'avea', 'face', 'vorbi', 'manca', 'dormi'], ['viitor'], 10, 'viitor')] },
+  { id: 'articol', title: 'Articolul hotărât (-ul, -a)', href: '/docs/lectii/09-articolul-hotarat', questions: () => tag('articol', articol) },
+  { id: 'plural', title: 'Pluralul substantivelor', href: '/docs/lectii/10-pluralul', questions: () => tag('plural', plural) },
+  { id: 'adjective', title: 'Adjectivul (acordul)', href: '/docs/lectii/11-adjectivul', questions: () => tag('adjective', adjective) },
+  { id: 'ora-data', title: 'Ora și data', href: '/docs/lectii/12-ora-si-data', questions: () => [...tag('ora-data', oraData), ...oraDataGen()] },
   { id: 'gen', title: 'Genul substantivelor', href: '/docs/vechi/lecture-5', questions: () => tag('gen', gen) },
   { id: 'civica', title: 'Cultură și Constituție', href: '/docs/examen/cultura-civica', questions: () => tag('civica', civica) },
 ];
