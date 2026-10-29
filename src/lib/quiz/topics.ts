@@ -21,6 +21,10 @@ import { questions as prepozitii } from './bank/prepozitii';
 import { questions as trecut } from './bank/trecut';
 import { questions as reflexive, generate as reflexiveGen } from './bank/reflexive';
 import { VERBS } from './verbs';
+import { questions as conjunctiv } from './bank/conjunctiv';
+import { questions as imperativ } from './bank/imperativ';
+import { questions as cumparaturi } from './bank/cumparaturi';
+import { questions as viata } from './bank/viata';
 
 const tag = (topic: string, qs: Question[]) => qs.map((q) => ({ ...q, topic }));
 
@@ -34,14 +38,18 @@ export const TOPICS: Topic[] = [
   { id: 'timpuri', title: 'Prezent, trecut, viitor', href: '/docs/lectii/06-conjugarea', questions: () => [...tag('timpuri', timpuri), ...verbQuestions(['lucra', 'desena', 'deschide', 'inchide', 'citi', 'hotari'], ['prezent', 'trecut', 'viitor'], 12, 'timpuri')] },
   { id: 'seara', title: 'Viața mea seara (text)', href: '/docs/lectii/07-viata-mea-seara', questions: () => tag('seara', seara) },
   { id: 'viitor', title: 'Timpul viitor', href: '/docs/lectii/08-viitorul', questions: () => [...tag('viitor', viitor), ...verbQuestions(['merge', 'veni', 'invata', 'lucra', 'avea', 'face', 'vorbi', 'manca', 'dormi'], ['viitor'], 10, 'viitor')] },
-  { id: 'articol', title: 'Articolul hotărât (-ul, -a)', href: '/docs/lectii/09-articolul-hotarat', questions: () => tag('articol', articol) },
-  { id: 'plural', title: 'Pluralul substantivelor', href: '/docs/lectii/10-pluralul', questions: () => tag('plural', plural) },
-  { id: 'adjective', title: 'Adjectivul (acordul)', href: '/docs/lectii/11-adjectivul', questions: () => tag('adjective', adjective) },
-  { id: 'ora-data', title: 'Ora și data', href: '/docs/lectii/12-ora-si-data', questions: () => [...tag('ora-data', oraData), ...oraDataGen()] },
-  { id: 'familia', title: 'Familia', href: '/docs/lectii/13-familia', questions: () => tag('familia', familia) },
-  { id: 'prepozitii', title: 'Prepozițiile', href: '/docs/lectii/14-prepozitiile', questions: () => tag('prepozitii', prepozitii) },
-  { id: 'trecut', title: 'Perfectul compus (trecut)', href: '/docs/lectii/15-perfectul-compus', questions: () => [...tag('trecut', trecut), ...verbQuestions(Object.keys(VERBS), ['trecut'], 12, 'trecut')] },
-  { id: 'reflexive', title: 'Verbele reflexive (mă, te, se)', href: '/docs/lectii/16-verbele-reflexive', questions: () => [...tag('reflexive', reflexive), ...reflexiveGen()] },
+  { id: 'articol', title: 'Articolul hotărât (-ul, -a)', href: '/docs/teme/articolul-hotarat', questions: () => tag('articol', articol) },
+  { id: 'plural', title: 'Pluralul substantivelor', href: '/docs/teme/pluralul', questions: () => tag('plural', plural) },
+  { id: 'adjective', title: 'Adjectivul (acordul)', href: '/docs/teme/adjectivul', questions: () => tag('adjective', adjective) },
+  { id: 'ora-data', title: 'Ora și data', href: '/docs/teme/ora-si-data', questions: () => [...tag('ora-data', oraData), ...oraDataGen()] },
+  { id: 'familia', title: 'Familia', href: '/docs/teme/familia', questions: () => tag('familia', familia) },
+  { id: 'prepozitii', title: 'Prepozițiile', href: '/docs/teme/prepozitiile', questions: () => tag('prepozitii', prepozitii) },
+  { id: 'trecut', title: 'Timpul trecut (perfect compus)', href: '/docs/lectii/09-timpul-trecut', questions: () => [...tag('trecut', trecut), ...verbQuestions(Object.keys(VERBS), ['trecut'], 12, 'trecut')] },
+  { id: 'reflexive', title: 'Verbele reflexive (mă, te, se)', href: '/docs/teme/verbele-reflexive', questions: () => [...tag('reflexive', reflexive), ...reflexiveGen()] },
+  { id: 'conjunctiv', title: 'Conjunctivul („să”)', href: '/docs/teme/conjunctivul', questions: () => tag('conjunctiv', conjunctiv) },
+  { id: 'imperativ', title: 'Imperativul', href: '/docs/teme/imperativul', questions: () => tag('imperativ', imperativ) },
+  { id: 'cumparaturi', title: 'Mâncare și cumpărături', href: '/docs/teme/mancare-cumparaturi', questions: () => tag('cumparaturi', cumparaturi) },
+  { id: 'viata', title: 'Casa, transport, doctor, serviciu', href: '/docs/teme/viata-de-zi-cu-zi', questions: () => tag('viata', viata) },
   { id: 'gen', title: 'Genul substantivelor', href: '/docs/vechi/lecture-5', questions: () => tag('gen', gen) },
   { id: 'civica', title: 'Cultură și Constituție', href: '/docs/examen/cultura-civica', questions: () => tag('civica', civica) },
 ];
